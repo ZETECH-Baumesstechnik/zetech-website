@@ -1,0 +1,392 @@
+@import "@/variables";
+
+.dienstleistungen-page {
+    padding-block-start: $header-block-size;
+    padding-block-end: 10rem;
+
+    .intro-section {
+        position: relative;
+        background-image: url("/images/bg-concrete.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        isolation: isolate;
+
+        &::before {
+            position: absolute;
+            content: "";
+            inset: 0;
+            opacity: 0.5;
+            background-color: $color-black-dark;
+            z-index: -1;
+        }
+
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem;
+            margin-inline: auto;
+
+            .flex-grid {
+                display: flex;
+                flex-direction: column;
+                row-gap: 5rem;
+
+                .title {
+                    color: $color-white-dark;
+                    font-size: 8rem;
+                    font-weight: $weight-bold;
+
+                    @media (max-width: 768px) {
+                        font-size: 5rem;
+                    }
+
+                    @media (max-width: 425px) {
+                        font-size: 4rem;
+                    }
+                }
+
+                .text {
+                    color: $color-white-dark;
+                    font-size: 3rem;
+
+                    @media (max-width: 768px) {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .service-section-odd {
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 10rem 0;
+            margin-inline: auto;
+
+            .flex-grid {
+                display: flex;
+                flex-direction: column;
+                row-gap: 5rem;
+                isolation: isolate;
+
+                > .title-box {
+                    position: relative;
+                    display: flex;
+                    justify-content: flex-start;
+
+                    @media (max-width: 1024px) {
+                        justify-content: center;
+                        text-align: center;
+                    }
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        inset-inline: 0;
+                        inset-block-start: 50%;
+                        transform: translateY(-50%);
+                        block-size: 1rem;
+                        border-radius: 3rem;
+                        background-color: $color-black-light;
+                        z-index: -2;
+
+                        @media (max-width: 1024px) {
+                            display: none;
+                        }
+                    }
+
+                    .title {
+                        position: relative;
+                        color: transparent;
+                        font-size: 4rem;
+                        font-weight: $weight-bold;
+                        background-image: $color-gradient-blue;
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+
+                        @media (max-width: 768px) {
+                            font-size: 3rem;
+                        }
+
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            inset-inline: 0 -5rem;
+                            inset-block: 0;
+                            background-color: $color-white-dark;
+                            z-index: -1;
+
+                            @media (max-width: 1024px) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                .sub-flex-grid {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas:
+                        "h i"
+                        "p i";
+                    row-gap: 5rem;
+                    padding-inline: min(5rem, 5%);
+                    padding-block: 5rem;
+                    border-radius: 1rem;
+                    background-color: $color-white-light;
+
+                    @media (max-width: 1024px) {
+                        grid-template-areas:
+                            "h h"
+                            "i i"
+                            "p p";
+                    }
+
+                    .title-box {
+                        grid-area: h;
+                        display: flex;
+                        align-items: flex-end;
+
+                        @media (max-width: 1024px) {
+                            justify-content: center;
+                            text-align: center;
+                        }
+
+                        .title {
+                            font-size: 3rem;
+                            font-weight: $weight-bold;
+                        }
+                    }
+
+                    .text-box {
+                        grid-area: p;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        row-gap: 5rem;
+
+                        .text {
+                            font-size: 2rem;
+                        }
+
+                        .link {
+                            inline-size: fit-content;
+                            color: $color-white-dark;
+                            font-size: 2rem;
+                            text-align: center;
+                            padding-inline: 10rem;
+                            padding-block: 0.5rem;
+                            border-radius: 3rem;
+                            outline: 3px solid $color-black-light;
+                            outline-offset: 3px;
+                            background-image: $color-gradient-blue;
+                            transition-property: outline-offset;
+                            transition-timing-function: ease-in-out;
+                            transition-duration: 200ms;
+
+                            @media (max-width: 1024px) {
+                                margin-inline: auto;
+                            }
+
+                            &:hover {
+                                outline-offset: 0;
+                            }
+                        }
+                    }
+
+                    .image-box {
+                        grid-area: i;
+                        display: flex;
+                        justify-content: flex-end;
+
+                        @media (max-width: 1024px) {
+                            justify-content: center;
+                        }
+
+                        .image-holder {
+                            display: flex;
+                            position: relative;
+                            inline-size: 80%;
+                            aspect-ratio: calc(16 / 9);
+                            border-radius: 1rem;
+                            border: 1px solid black;
+
+                            @media (max-width: 768px) {
+                                inline-size: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .service-section-even {
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 10rem 0;
+            margin-inline: auto;
+
+            .flex-grid {
+                display: flex;
+                flex-direction: column;
+                row-gap: 5rem;
+                isolation: isolate;
+
+                > .title-box {
+                    position: relative;
+                    display: flex;
+                    justify-content: flex-end;
+
+                    @media (max-width: 1024px) {
+                        justify-content: center;
+                        text-align: center;
+                    }
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        inset-inline: 0;
+                        inset-block-start: 50%;
+                        transform: translateY(-50%);
+                        block-size: 1rem;
+                        border-radius: 3rem;
+                        background-color: $color-black-light;
+                        z-index: -2;
+
+                        @media (max-width: 1024px) {
+                            display: none;
+                        }
+                    }
+
+                    .title {
+                        position: relative;
+                        color: transparent;
+                        font-size: 4rem;
+                        font-weight: $weight-bold;
+                        background-image: $color-gradient-blue;
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+
+                        @media (max-width: 768px) {
+                            font-size: 3rem;
+                        }
+
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            inset-inline: -5rem 0;
+                            inset-block: 0;
+                            background-color: $color-white-dark;
+                            z-index: -1;
+
+                            @media (max-width: 1024px) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                .sub-flex-grid {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas:
+                        "i h"
+                        "i p";
+                    row-gap: 5rem;
+                    padding-inline: min(5rem, 5%);
+                    padding-block: 5rem;
+                    border-radius: 1rem;
+                    background-color: $color-white-light;
+
+                    @media (max-width: 1024px) {
+                        grid-template-areas:
+                            "h h"
+                            "i i"
+                            "p p";
+                    }
+
+                    .title-box {
+                        grid-area: h;
+                        display: flex;
+                        align-items: flex-end;
+
+                        @media (max-width: 1024px) {
+                            justify-content: center;
+                            text-align: center;
+                        }
+
+                        .title {
+                            font-size: 3rem;
+                            font-weight: $weight-bold;
+                        }
+                    }
+
+                    .text-box {
+                        grid-area: p;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        row-gap: 5rem;
+
+                        .text {
+                            font-size: 2rem;
+                        }
+
+                        .link {
+                            inline-size: fit-content;
+                            color: $color-white-dark;
+                            font-size: 2rem;
+                            text-align: center;
+                            padding-inline: 10rem;
+                            padding-block: 0.5rem;
+                            border-radius: 3rem;
+                            outline: 3px solid $color-black-light;
+                            outline-offset: 3px;
+                            background-image: $color-gradient-blue;
+                            transition-property: outline-offset;
+                            transition-timing-function: ease-in-out;
+                            transition-duration: 200ms;
+
+                            @media (max-width: 1024px) {
+                                margin-inline: auto;
+                            }
+
+                            &:hover {
+                                outline-offset: 0;
+                            }
+                        }
+                    }
+
+                    .image-box {
+                        grid-area: i;
+                        display: flex;
+                        justify-content: flex-start;
+
+                        @media (max-width: 1024px) {
+                            justify-content: center;
+                        }
+
+                        .image-holder {
+                            display: flex;
+                            position: relative;
+                            inline-size: 80%;
+                            aspect-ratio: calc(16 / 9);
+                            border-radius: 1rem;
+                            border: 1px solid black;
+
+                            @media (max-width: 768px) {
+                                inline-size: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

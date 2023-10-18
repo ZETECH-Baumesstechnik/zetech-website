@@ -1,0 +1,15 @@
+{
+    "category": "Tablets",
+    "products": [
+        {
+            "name": "Leica iCON CC200",
+            "link": "/shop/tablets/leica-icon-cc200",
+            "image": "/images/shop/tablets/leica-icon-cc200-1.webp"
+        },
+        {
+            "name": "Leica iCON CC170",
+            "link": "/shop/tablets/leica-icon-cc170",
+            "image": "/images/shop/tablets/leica-icon-cc170-1.webp"
+        }
+    ]
+}

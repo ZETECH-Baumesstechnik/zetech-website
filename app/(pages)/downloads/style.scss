@@ -1,0 +1,128 @@
+@import "@/variables";
+
+.downloads-page {
+    padding-block-start: $header-block-size;
+
+    .intro-section {
+        position: relative;
+        background-image: url("/images/bg-concrete.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        isolation: isolate;
+
+        &::before {
+            position: absolute;
+            content: "";
+            inset: 0;
+            opacity: 0.5;
+            background-color: $color-black-dark;
+            z-index: -1;
+        }
+
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem;
+            margin-inline: auto;
+
+            .flex-grid {
+                display: flex;
+                flex-direction: column;
+                row-gap: 5rem;
+
+                .title {
+                    color: $color-white-dark;
+                    font-size: 8rem;
+                    font-weight: $weight-bold;
+
+                    @media (max-width: 768px) {
+                        font-size: 5rem;
+                    }
+
+                    @media (max-width: 425px) {
+                        font-size: 4rem;
+                    }
+                }
+
+                .text {
+                    color: $color-white-dark;
+                    font-size: 3rem;
+
+                    @media (max-width: 768px) {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .teamviewer-section {
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 10rem;
+            margin-inline: auto;
+
+            > .flex-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                row-gap: 5rem;
+
+                > .title-box {
+                    display: flex;
+
+                    .title {
+                        font-size: 7rem;
+                        font-weight: $weight-bold;
+
+                        @media (max-width: 768px) {
+                            font-size: 6rem;
+                        }
+
+                        @media (max-width: 425px) {
+                            font-size: 5rem;
+                        }
+                    }
+                }
+
+                > .sub-flex-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(min(30rem, 100%), 1fr));
+                    column-gap: min(5rem, 5%);
+                    row-gap: 5rem;
+
+                    .box {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 2rem;
+                        padding-inline: min(5rem, 5%);
+                        padding-block: 3rem;
+                        border-radius: 1rem;
+                        background-color: $color-white-light;
+
+                        .logo-holder {
+                            display: flex;
+                            font-size: 6rem;
+                        }
+
+                        .description {
+                            display: flex;
+                            flex-direction: column;
+
+                            .name {
+                                color: $color-black-light;
+                                font-size: 3rem;
+                            }
+
+                            .os {
+                                color: $color-black-light;
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

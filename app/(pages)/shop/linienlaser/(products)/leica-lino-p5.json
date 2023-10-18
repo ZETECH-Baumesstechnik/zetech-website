@@ -1,0 +1,34 @@
+{
+    "name": "Leica Lino P5",
+    "image": "/images/shop/linienlaser/leica-lino-p5-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": false,
+            "description": "Der Leica Lino P5 ist sehr einfach zu bedienen. Auf Knopfdruck werden 5 präzise Referenzpunkte projiziert, die exakt im rechten Winkel zueinander stehen."
+        },
+        {
+            "bullet": false,
+            "description": "Durchdachte Magnetadapter ermöglichen das schnelle Befestigen Ihres Leica Lino P5 an Ecken, Profilen, Metallrohren, Ständern und Pfosten, um so Ihre Arbeit schneller zu erledigen."
+        },
+        {
+            "bullet": false,
+            "description": "Der Lino P5 korrigiert die Ausrichtung der Punkte automatisch, wenn er sich um ± 4° in Schräglage befindet. Damit wird gewährleistet, dass Winkel und Referenzpunkte korrekt übertragen werden. Blinkende Laserpunkte bedeuten, dass sich die Neigung außerhalb dieses Bereichs befindet."
+        },
+        {
+            "bullet": false,
+            "description": "Der Leica Lino P5 Laser hat ein dreifaches Energiekonzept. Im Lieferumfang sind Alkaline-Batterien enthalten, er kann aber auch mit einem Li-Ion-Akku betrieben werden."
+        },
+        {
+            "bullet": false,
+            "description": "Der Lino P5 ist gemäß Schutzklasse IP54 staub- und spritzwassergeschützt. Das macht ihn zum robusten Gerät, das Sie bei all Ihren Arbeitsaufgaben unterstützt."
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/linienlaser/leica-lino-p5.pdf"
+        }
+    ]
+}

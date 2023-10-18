@@ -1,0 +1,23 @@
+$color-black-dark: #000000;
+$color-black-light: #444444;
+
+$color-white-dark: #f2f2f2;
+$color-white-light: #ffffff;
+
+$color-blue-main: #1f497d;
+$color-blue-second: #3e7fbf;
+
+$color-red-main: #dc143c;
+$color-red-second: #ff4d6a;
+
+$color-gradient-blue: linear-gradient(to right bottom, $color-blue-main, $color-blue-second);
+$color-gradient-red: linear-gradient(to right bottom, $color-red-main, $color-red-second);
+
+$weight-light: 200;
+$weight-normal: 400;
+$weight-bold: 600;
+$weight-bolder: 800;
+
+$header-block-size: 10rem;
+
+$max-size: 2000px;

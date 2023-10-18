@@ -1,0 +1,200 @@
+@import "@/variables";
+
+.footer {
+    background-color: $color-black-dark;
+
+    .footer-container {
+        inline-size: min($max-size, 100%);
+        padding-inline: min(5rem, 5%);
+        padding-block: 10rem;
+        margin-inline: auto;
+
+        .flex-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            row-gap: 5rem;
+
+            .footer-navigation {
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+
+                @media (max-width: 1024px) {
+                    grid-template-columns: 1fr;
+                }
+
+                .nav-box-a {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: min-content 1fr;
+                    grid-template-areas:
+                        "a"
+                        "b";
+                    row-gap: 10rem;
+
+                    @media (max-width: 1024px) {
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-areas: "a b";
+                        row-gap: 5rem;
+                    }
+
+                    .nav-box {
+                        &.dienstleistungen {
+                            grid-area: a;
+                        }
+
+                        &.service {
+                            grid-area: b;
+                        }
+                    }
+                }
+
+                .nav-box-b {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: min-content 1fr;
+                    grid-template-areas:
+                        "a b"
+                        "a c";
+                    row-gap: 10rem;
+
+                    .nav-box {
+                        &.shop {
+                            grid-area: a;
+                        }
+
+                        &.downloads {
+                            grid-area: b;
+                        }
+
+                        &.kontakt {
+                            grid-area: c;
+                        }
+                    }
+                }
+
+                .nav-box-a,
+                .nav-box-b {
+                    .nav-box {
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        row-gap: 1rem;
+
+                        .header-link {
+                            inline-size: fit-content;
+                            margin-inline: auto;
+                            color: $color-white-dark;
+                            font-size: 2rem;
+                            font-weight: $weight-bold;
+                            padding-inline: 1rem;
+                            padding-block: 0.5rem;
+                            border-radius: 1rem;
+                            transition-property: background-color;
+                            transition-timing-function: ease-in-out;
+                            transition-duration: 200ms;
+
+                            &:hover {
+                                background-color: $color-black-light;
+                            }
+                        }
+
+                        .sub-links-container {
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+
+                            .sub-link {
+                                inline-size: fit-content;
+                                margin-inline: auto;
+                                color: $color-white-dark;
+                                font-size: 2rem;
+                                padding-inline: 1rem;
+                                padding-block: 0.5rem;
+                                border-radius: 1rem;
+                                transition-property: background-color;
+                                transition-timing-function: ease-in-out;
+                                transition-duration: 200ms;
+
+                                &:hover {
+                                    background-color: $color-black-light;
+                                }
+                            }
+
+                            .sub-text {
+                                color: $color-white-dark;
+                                font-size: 2rem;
+                                padding-inline: 1rem;
+                                padding-block: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .group-box {
+                display: flex;
+                flex-direction: column;
+                row-gap: 5rem;
+                isolation: isolate;
+
+                .open-hours-box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    row-gap: 2rem;
+                    padding-block-start: 5rem;
+                    border-block-start: 5px solid $color-black-light;
+
+                    .title {
+                        color: $color-white-dark;
+                        font-size: 2rem;
+                        font-weight: $weight-bold;
+                    }
+
+                    .open-days {
+                        color: $color-white-dark;
+                        font-size: 2rem;
+                    }
+
+                    .hours-box {
+                        color: $color-white-dark;
+                        font-size: 2rem;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 1rem;
+                    }
+                }
+
+                .socials-box {
+                    inline-size: fit-content;
+                    margin-inline: auto;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    column-gap: 5rem;
+                    padding-inline: min(10rem, 10%);
+                    padding-block: 1rem;
+                    border-radius: 1rem;
+                    background-image: $color-gradient-blue;
+
+                    .social-link {
+                        display: flex;
+                        color: $color-white-dark;
+                        font-size: 4rem;
+                        padding-inline: 1rem;
+                        padding-block: 0.5rem;
+                        border-radius: 1rem;
+                        transition-property: background-color;
+                        transition-timing-function: ease-in-out;
+                        transition-duration: 200ms;
+
+                        &:hover {
+                            background-color: $color-black-dark;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

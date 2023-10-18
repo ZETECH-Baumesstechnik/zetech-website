@@ -1,0 +1,38 @@
+{
+    "name": "Leica Lino L2P5",
+    "image": "/images/shop/linienlaser/leica-lino-l2p5-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": false,
+            "description": "Der Leica Lino L2P5 ist ein selbstnivellierender Kreuzlinien- und Punktlaser. Dieser Lino ist ideal für Ausrichtungsarbeiten (z. B. Fliesenlegen, Trockenbau, Trennwände und Elektroinstallationen) sowie Lotpunktprojektionen und das Abstecken oder Übertragen von gemessenen Punkten."
+        },
+        {
+            "bullet": false,
+            "description": "Die bewährte Leica Optik ermöglicht es mit dem Lino L2P5, sehr helle und gut sichtbare Laserlinien und -punkte zu projizieren. Der Arbeitsbereich kann, je nach Lichtverhältnis, bis zu 25 m betragen. Dieser Bereich kann durch den Einsatz des Laserempfängers auf 80 m erweitert werden."
+        },
+        {
+            "bullet": false,
+            "description": "Dieser 2-in-1 Laser hat magnetische Adapter, die eine schnelle und absolut präzise Positionierung des Gerätes ermöglichen. Sie können es ganz einfach in U-Profilen, an Ecken oder an jeder anderen magnetischen Oberfläche befestigen."
+        },
+        {
+            "bullet": false,
+            "description": "Der Leica Lino L2P5 ist ein selbstnivellierender Punkt- und Kreuzlinienlaser. Das heisst, er korrigiert seine Ausrichtung automatisch und ohne jede manuelle Justierung , auch wenn er sich um bis zu ± 4° in Schräglage befindet."
+        },
+        {
+            "bullet": false,
+            "description": "Das Triple Power Konzept sorgt für einen unterbrechungsfreien Arbeitsablauf. Lithium-Ionen Batterien ermöglichen das Arbeiten von bis zu 44 Stunden. Alternativ können auch Alkaline Batterien oder das Ladegerät verwendet werden."
+        },
+        {
+            "bullet": false,
+            "description": "Der Lino L2P5, der für die heutigen Anforderungen auf Baustellen konzipiert und gebaut wurde, Er ist gemäß Schutzklasse IP 54 staub- und spritzwassergeschützt."
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/linienlaser/leica-lino-l2p5.pdf"
+        }
+    ]
+}

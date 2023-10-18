@@ -1,0 +1,34 @@
+{
+    "name": "Leica Lino L2G",
+    "image": "/images/shop/linienlaser/leica-lino-l2g-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": false,
+            "description": "Die neue grüne Lasertechnologie von Leica Geosystems bringt die Sichtbarkeit und Klarheit der Laserlinien auf die höchste Stufe. Grüne Referenzlinien sind bei schwierigen Lichtverhältnissen und über weite Distanzen leicht erkennbar."
+        },
+        {
+            "bullet": false,
+            "description": "Das Triple Power Konzept des Leica Lino L2G sorgt für einen unterbrechungsfreien Arbeitsablauf. Sie können Ihr Lasergerät mit wiederaufladbaren Lithium-Ionen Akkus bis zu 28 Stunden mit nur einer Ladung betreiben. Alternativ können Sie Alkaline-Batterien oder einfach das Ladegerät verwenden."
+        },
+        {
+            "bullet": false,
+            "description": "Clevere Magnetadapter ermöglichen es Ihnen, Ihren Leica Lino L2G mit absoluter Präzision schnell zu positionieren. Sie können den drehbaren Adapter an Ecken und Profilen positionieren oder in Verbindung mit dem UAL 130 Adapter einfach an Metallrohren, Ständern und Pfosten befestigen."
+        },
+        {
+            "bullet": false,
+            "description": "Der Leica Lino L2G ist ein selbstnivellierender Laser. Er korrigiert die Ausrichtung der Laserlinien automatisch, wenn er sich um ± 4° in Schräglage befindet. Um Fehler zu vermeiden, blinken die Laserstrahlen, sobald sich die Schräglage außerhalb dieses Bereiches befindet."
+        },
+        {
+            "bullet": false,
+            "description": "Der Lino L2G ist gemäß Schutzklasse IP54 staub- und spritzwassergeschützt. Er wird in einem Hartschalenkoffer geliefert, der eine sichere Aufbewahrung aller Zubehörteile gewährleistet."
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/linienlaser/leica-lino-l2g.pdf"
+        }
+    ]
+}

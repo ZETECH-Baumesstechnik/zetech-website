@@ -1,0 +1,34 @@
+{
+    "name": "Leica Lino L2",
+    "image": "/images/shop/linienlaser/leica-lino-l2-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": false,
+            "description": "Die hochpräzise Optik sorgt, je nach Lichtverhältnissen, für eine hervorragende Sichtbarkeit der Laserlinie bis zu 25 m. Außergewöhnlich lange horizontale und vertikale Laserlinien werden bei mehr als 180 Grad auf Böden, Wände und Decken projiziert."
+        },
+        {
+            "bullet": false,
+            "description": "Der Lino L2 korrigiert die Ausrichtung der Laserlinien automatisch, wenn er sich um ± 4° in Schräglage befindet. Ausserhalb dieser Grenzen wird eine visuelle Warnung ausgelöst, um Fehler zu vermeiden."
+        },
+        {
+            "bullet": false,
+            "description": "Durchdachte Adapter ermöglichen eine schnelle und präzise Positionierung. Sie können drehbare Adapter an Ecken und Profilen anbringen oder sie einfach an Metallrohren, Ständern und Pfosten befestigen."
+        },
+        {
+            "bullet": false,
+            "description": "Das Triple Power Konzept garantiert einen ununterbrochenen Arbeitsablauf. Wiederaufladbare Lithium-Ionen Batterien sorgen für einen Betrieb ohne Unterbruch bis zu 44 Stunden lang. Alternativ können Sie Alkaline-Batterien oder einfach das Ladegerät verwenden."
+        },
+        {
+            "bullet": false,
+            "description": "Der Leica Lino L2 ist gemäß Schutzklasse IP 54 staub- und spritzwassergeschützt. Das macht ihn zum robusten Gerät, das Sie bei all Ihren Arbeitsaufgaben unterstützt."
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/linienlaser/leica-lino-l2.pdf"
+        }
+    ]
+}

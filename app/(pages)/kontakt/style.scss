@@ -1,0 +1,472 @@
+@import "@/variables";
+
+.kontakt-page {
+    padding-block-start: $header-block-size;
+
+    .intro-section {
+        position: relative;
+        background-image: url("/images/bg-concrete.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        isolation: isolate;
+
+        &::before {
+            position: absolute;
+            content: "";
+            inset: 0;
+            opacity: 0.5;
+            background-color: $color-black-dark;
+            z-index: -1;
+        }
+
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem;
+            margin-inline: auto;
+
+            .flex-grid {
+                display: flex;
+                flex-direction: column;
+                row-gap: 5rem;
+
+                .title {
+                    color: $color-white-dark;
+                    font-size: 8rem;
+                    font-weight: $weight-bold;
+
+                    @media (max-width: 768px) {
+                        font-size: 5rem;
+                    }
+
+                    @media (max-width: 425px) {
+                        font-size: 4rem;
+                    }
+                }
+
+                .text {
+                    color: $color-white-dark;
+                    font-size: 3rem;
+
+                    @media (max-width: 768px) {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .team-section {
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 10rem;
+            margin-inline: auto;
+
+            .flex-grid {
+                display: flex;
+                flex-direction: column;
+                row-gap: 10rem;
+
+                > .title {
+                    font-size: 8rem;
+                    font-weight: $weight-bold;
+                    text-align: center;
+
+                    @media (max-width: 768px) {
+                        font-size: 5rem;
+                    }
+
+                    @media (max-width: 425px) {
+                        font-size: 4rem;
+                    }
+
+                    .gradient {
+                        color: transparent;
+                        font-size: 8rem;
+                        font-weight: $weight-bold;
+                        background-image: $color-gradient-blue;
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+
+                        @media (max-width: 768px) {
+                            font-size: 5rem;
+                        }
+
+                        @media (max-width: 425px) {
+                            font-size: 4rem;
+                        }
+                    }
+                }
+
+                .departments-container {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 5rem;
+
+                    .sub-flex-grid {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 5rem;
+                        padding-inline: min(5rem, 5%);
+                        padding-block: 5rem;
+                        border-radius: 1rem;
+                        background-color: $color-white-light;
+
+                        .title {
+                            font-size: 5rem;
+                            font-weight: $weight-bold;
+
+                            @media (max-width: 768px) {
+                                font-size: 4rem;
+                            }
+
+                            @media (max-width: 425px) {
+                                font-size: 3rem;
+                            }
+                        }
+
+                        .partner-flex-grid {
+                            display: grid;
+                            grid-template-columns: repeat(auto-fill, minmax(min(30rem, 100%), 1fr));
+                            column-gap: 5rem;
+                            row-gap: 5rem;
+
+                            .partner-box {
+                                display: flex;
+                                flex-direction: column;
+                                row-gap: 1rem;
+                                padding-block-end: 1rem;
+                                border-radius: 1rem;
+                                background-color: $color-white-dark;
+                                overflow: hidden;
+
+                                .image-holder {
+                                    position: relative;
+                                    display: flex;
+                                    inline-size: 100%;
+                                    aspect-ratio: 4 / 3;
+                                    background-color: $color-white-dark;
+                                }
+
+                                .box-group {
+                                    display: flex;
+                                    flex-direction: column;
+                                    row-gap: 1rem;
+                                    padding-inline: min(5rem, 5%);
+
+                                    .name {
+                                        font-size: 2rem;
+                                        font-weight: $weight-bold;
+                                    }
+
+                                    .contact-group {
+                                        inline-size: fit-content;
+                                        display: flex;
+                                        align-items: center;
+                                        column-gap: 1rem;
+
+                                        .icon-holder {
+                                            display: flex;
+                                            padding-inline: 1rem;
+                                            padding-block: 1rem;
+                                            border-radius: 50%;
+                                            background-color: $color-white-light;
+
+                                            .icon {
+                                                font-size: 2rem;
+                                            }
+                                        }
+
+                                        .contact-link {
+                                            color: $color-blue-main;
+                                            font-size: 2rem;
+                                            padding-inline: 1rem;
+                                            padding-block: 0.5rem;
+                                            border-radius: 1rem;
+                                            transition-property: background-color;
+                                            transition-timing-function: ease-in-out;
+                                            transition-duration: 200ms;
+
+                                            &:hover {
+                                                background-color: $color-white-light;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .form-section {
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 0 10rem;
+            margin-inline: auto;
+
+            > .flex-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas:
+                    "h h"
+                    "o c"
+                    "f f";
+                column-gap: 5rem;
+                row-gap: 5rem;
+
+                @media (max-width: 1024px) {
+                    grid-template-areas:
+                        "h h"
+                        "o o"
+                        "c c"
+                        "f f";
+                }
+
+                > .title-box {
+                    grid-area: h;
+                    text-align: center;
+                    margin-block-end: 5rem;
+
+                    .title {
+                        font-size: 8rem;
+                        font-weight: $weight-bold;
+
+                        @media (max-width: 768px) {
+                            font-size: 5rem;
+                        }
+
+                        @media (max-width: 425px) {
+                            font-size: 4rem;
+                        }
+
+                        .gradient {
+                            color: transparent;
+                            font-size: 8rem;
+                            font-weight: $weight-bold;
+                            background-image: $color-gradient-blue;
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+
+                            @media (max-width: 768px) {
+                                font-size: 5rem;
+                            }
+
+                            @media (max-width: 425px) {
+                                font-size: 4rem;
+                            }
+                        }
+                    }
+                }
+
+                > .sub-flex-grid-1 {
+                    grid-area: o;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    row-gap: 3rem;
+                    padding-inline: min(5rem, 5%);
+                    padding-block: 3rem;
+                    border-radius: 1rem;
+                    // border: 1px solid $color-black-light;
+                    background-color: $color-white-light;
+
+                    .title {
+                        font-size: 5rem;
+                        font-weight: $weight-bold;
+                    }
+
+                    .open-days {
+                        font-size: 3rem;
+                    }
+
+                    .open-hours-box {
+                        font-size: 2rem;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 1rem;
+                    }
+                }
+
+                > .sub-flex-grid-2 {
+                    grid-area: c;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-inline: min(5rem, 5%);
+                    padding-block: 3rem;
+                    border-radius: 1rem;
+                    // border: 1px solid $color-black-light;
+                    background-color: $color-white-light;
+
+                    .box-container {
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 3rem;
+
+                        .box {
+                            inline-size: fit-content;
+                            display: flex;
+                            align-items: center;
+                            column-gap: 4rem;
+
+                            .icon-holder {
+                                display: flex;
+                                padding-inline: 1.5rem;
+                                padding-block: 1.5rem;
+                                border-radius: 50%;
+                                background-color: $color-white-dark;
+
+                                .icon {
+                                    font-size: 5rem;
+                                }
+                            }
+
+                            .box-group {
+                                display: flex;
+                                flex-direction: column;
+                                padding-inline: 1rem;
+
+                                > p {
+                                    font-size: 2rem;
+                                }
+                            }
+
+                            .contact-link {
+                                color: $color-blue-main;
+                                font-size: 2rem;
+                                padding-inline: 1rem;
+                                padding-block: 0.5rem;
+                                border-radius: 1rem;
+                                transition-property: background-color;
+                                transition-timing-function: ease-in-out;
+                                transition-duration: 200ms;
+
+                                &:hover {
+                                    background-color: $color-white-dark;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                > .sub-flex-grid-3 {
+                    grid-area: f;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    border-radius: 1rem;
+                    // border: 1px solid $color-black-light;
+                    background-color: $color-white-light;
+                    overflow: hidden;
+
+                    @media (max-width: 1024px) {
+                        grid-template-columns: 1fr;
+                    }
+
+                    .map-box {
+                        position: relative;
+                        display: flex;
+
+                        @media (max-width: 1024px) {
+                            block-size: 50rem;
+                        }
+
+                        .map {
+                            position: absolute;
+                            inline-size: 100%;
+                            block-size: 100%;
+                            border: none;
+                        }
+                    }
+
+                    .form-box {
+                        padding-inline: min(5rem, 5%);
+                        padding-block: 3rem;
+
+                        .form {
+                            display: flex;
+                            flex-direction: column;
+                            row-gap: 2rem;
+
+                            .input-group {
+                                display: flex;
+                                flex-direction: column;
+
+                                .input-label {
+                                    font-size: 2rem;
+                                    font-weight: $weight-bold;
+                                }
+
+                                .form-input {
+                                    font-size: 2rem;
+                                    padding-inline: 1rem;
+                                    padding-block: 1rem;
+                                    border-radius: 1rem;
+                                    // border: 1px solid $color-black-light;
+                                    border: none;
+                                    outline: none;
+                                    background-color: $color-white-dark;
+                                }
+
+                                .form-input-text {
+                                    font-size: 2rem;
+                                    min-block-size: 20rem;
+                                    max-block-size: 50rem;
+                                    padding-inline: 1rem;
+                                    padding-block: 1rem;
+                                    resize: vertical;
+                                    border-radius: 1rem;
+                                    // border: 1px solid $color-black-light;
+                                    border: none;
+                                    outline: none;
+                                    background-color: $color-white-dark;
+                                }
+                            }
+
+                            .button-group {
+                                display: grid;
+                                grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+                                column-gap: 5rem;
+                                row-gap: 3rem;
+
+                                .send-button {
+                                    color: $color-white-dark;
+                                    font-size: 2rem;
+                                    padding-block: 1rem;
+                                    border-radius: 1rem;
+                                    // border: 1px solid $color-black-light;
+                                    border: none;
+                                    outline: none;
+                                    background-image: $color-gradient-blue;
+                                    cursor: pointer;
+                                }
+
+                                .reset-button {
+                                    color: $color-white-dark;
+                                    font-size: 2rem;
+                                    padding-block: 1rem;
+                                    border-radius: 1rem;
+                                    // border: 1px solid $color-black-light;
+                                    border: none;
+                                    outline: none;
+                                    background-image: $color-gradient-red;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

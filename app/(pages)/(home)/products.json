@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Leica iCON iCR 70",
+        "image": "/images/home/leica-icon-icr-70.webp",
+        "link": "/shop/totalstationen/leica-icon-icr-70"
+    },
+    {
+        "name": "Leica iCON iCR 80",
+        "image": "/images/home/leica-icon-icr-80.webp",
+        "link": "/shop/totalstationen/leica-icon-icr-80"
+    },
+    {
+        "name": "Leica iCON iCB 70",
+        "image": "/images/home/leica-icon-icb-70.webp",
+        "link": "/shop/totalstationen/leica-icon-icb-70"
+    },
+    {
+        "name": "Leica iCON iCG 70T",
+        "image": "/images/home/leica-icon-gps-70.webp",
+        "link": "/shop/gps/leica-icon-icg-70t"
+    },
+    {
+        "name": "Leica iCON CC200",
+        "image": "/images/home/leica-icon-cc200.webp",
+        "link": "/shop/tablets/leica-icon-cc200"
+    },
+    {
+        "name": "Leica AP20 AutoPole",
+        "image": "/images/home/leica-ap20-autopole.webp",
+        "link": "/shop/totalstationen/leica-ap20-autopole"
+    },
+    {
+        "name": "Leica Rugby CLA-CTIVE",
+        "image": "/images/home/leica-rugby-cla-ctive.webp",
+        "link": "/shop/baulaser/leica-rugby-cla-ctive"
+    },
+    {
+        "name": "Geomax 60DG",
+        "image": "/images/home/geomax-60dg.webp",
+        "link": "/shop/baulaser/geomax-60dg"
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "category": "Totalstationen",
+    "products": [
+        {
+            "name": "Leica iCON iCR 70",
+            "link": "/shop/totalstationen/leica-icon-icr-70",
+            "image": "/images/shop/totalstationen/leica-icon-icr-70-1.webp"
+        },
+        {
+            "name": "Leica iCON iCR 80",
+            "link": "/shop/totalstationen/leica-icon-icr-80",
+            "image": "/images/shop/totalstationen/leica-icon-icr-80-1.webp"
+        },
+        {
+            "name": "Leica iCON iCB 50",
+            "link": "/shop/totalstationen/leica-icon-icb-50",
+            "image": "/images/shop/totalstationen/leica-icon-icb-50-1.webp"
+        },
+        {
+            "name": "Leica iCON iCB 70",
+            "link": "/shop/totalstationen/leica-icon-icb-70",
+            "image": "/images/shop/totalstationen/leica-icon-icb-70-1.webp"
+        },
+        {
+            "name": "Leica AP20 AutoPole",
+            "link": "/shop/totalstationen/leica-ap20-autopole",
+            "image": "/images/shop/totalstationen/leica-ap20-autopole-1.webp"
+        }
+    ]
+}

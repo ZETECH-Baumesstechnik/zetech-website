@@ -1,0 +1,42 @@
+{
+    "name": "Leica iCON iCR 80",
+    "image": "/images/shop/totalstationen/leica-icon-icr-80-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": true,
+            "description": "Abstecken von Linien für Fundamente oder Schlagschnur-Markierungen an Betonschalungen"
+        },
+        {
+            "bullet": true,
+            "description": "Abstecken von Punkten auf der Ausgleichsschicht, beispielsweise für Rohreinlässe oder Aussparungen vor dem Betonieren"
+        },
+        {
+            "bullet": true,
+            "description": "Einfaches Abstecken mittels echter Konstruktionsdaten, von 2D-CAD bis zu objektbasierten BIM-Modellen"
+        },
+        {
+            "bullet": true,
+            "description": "Abstecken von Gebäudetechnik an Mauerdurchführungen für Rohre, Aufhängepositionen für Lüftungs- und Klimaanlagen, Einlässe und Schlitze für Blecharbeiten"
+        },
+        {
+            "bullet": true,
+            "description": "Bestandsaufnahme und Kontrollaufgaben direkt vor Ort erledigen"
+        },
+        {
+            "bullet": true,
+            "description": "Steuerung einer Vielzahl von Baumaschinen wie Straßenfräsen, Asphalt- oder Betonfertiger, Grader oder Planierraupen"
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/totalstationen/leica-icon-icr-70-icr-80.pdf"
+        },
+        {
+            "description": "Leica iCON Build",
+            "datasheet": "/documents/shop/leica-icon-build.pdf"
+        }
+    ]
+}

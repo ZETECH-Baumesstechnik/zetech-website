@@ -1,0 +1,54 @@
+{
+    "name": "Leica iCON CC200",
+    "image": "/images/shop/tablets/leica-icon-cc200-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": true,
+            "description": "Großer 10-Zoll-Bildschirm bietet eine größere Kartensichtbarkeit"
+        },
+        {
+            "bullet": true,
+            "description": "Höhere Leistung; ideal für die Verarbeitung großer Datenmengen"
+        },
+        {
+            "bullet": true,
+            "description": "Betriebsdauer von bis zu 12 Stunden"
+        },
+        {
+            "bullet": true,
+            "description": "Entspiegelter Bildschirm"
+        },
+        {
+            "bullet": true,
+            "description": "''Handschuh''- und ''Regen''-Modus sorgen für Bedienkomfort unter allen Wetterbedingungen"
+        },
+        {
+            "bullet": true,
+            "description": "''Portrait''-Modus erhöht die Sichtbarkeit bei der Verwendung bestimmter Apps"
+        },
+        {
+            "bullet": true,
+            "description": "Tasten mit benutzerprogrammierbaren Funktionen bieten einen leichteren und schnelleren Zugriff auf Befehle"
+        },
+        {
+            "bullet": true,
+            "description": "Unterstützt von Leica iCON Site und Leica iCON build Software"
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/tablets/leica-icon-cc200.pdf"
+        },
+        {
+            "description": "Leica iCON Build",
+            "datasheet": "/documents/shop/leica-icon-build.pdf"
+        },
+        {
+            "description": "Leica iCON Site",
+            "datasheet": "/documents/shop/leica-icon-site.pdf"
+        }
+    ]
+}

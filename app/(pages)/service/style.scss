@@ -1,0 +1,273 @@
+@import "@/variables";
+
+.service-page {
+    padding-block-start: $header-block-size;
+
+    .intro-section {
+        position: relative;
+        background-image: url("/images/bg-concrete.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        isolation: isolate;
+
+        &::before {
+            position: absolute;
+            content: "";
+            inset: 0;
+            opacity: 0.5;
+            background-color: $color-black-dark;
+            z-index: -1;
+        }
+
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem;
+            margin-inline: auto;
+
+            .flex-grid {
+                display: flex;
+                flex-direction: column;
+                row-gap: 5rem;
+
+                .title {
+                    color: $color-white-dark;
+                    font-size: 8rem;
+                    font-weight: $weight-bold;
+
+                    @media (max-width: 768px) {
+                        font-size: 5rem;
+                    }
+
+                    @media (max-width: 425px) {
+                        font-size: 4rem;
+                    }
+                }
+
+                .text {
+                    color: $color-white-dark;
+                    font-size: 3rem;
+
+                    @media (max-width: 768px) {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .workshop-about-section {
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 10rem 0;
+            margin-inline: auto;
+
+            > .title {
+                font-size: 8rem;
+                font-weight: $weight-bold;
+                text-align: center;
+                margin-block-end: 10rem;
+
+                @media (max-width: 768px) {
+                    font-size: 5rem;
+                }
+
+                @media (max-width: 425px) {
+                    font-size: 4rem;
+                }
+
+                .gradient {
+                    color: transparent;
+                    font-size: 8rem;
+                    font-weight: $weight-bold;
+                    background-image: $color-gradient-blue;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+
+                    @media (max-width: 768px) {
+                        font-size: 5rem;
+                    }
+
+                    @media (max-width: 425px) {
+                        font-size: 4rem;
+                    }
+                }
+            }
+
+            > .image-holder {
+                position: relative;
+                display: flex;
+                aspect-ratio: calc(3 / 1);
+                border-radius: 1rem;
+                margin-block-end: 5rem;
+                overflow: hidden;
+
+                .image {
+                    position: absolute;
+                    inline-size: 100%;
+                    block-size: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+
+            .flex-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas: "i t";
+                column-gap: 5rem;
+                row-gap: 5rem;
+                padding-inline: min(5rem, 5%);
+                padding-block: 5rem;
+                border-radius: 1rem;
+                background-color: $color-white-light;
+
+                @media (max-width: 1024px) {
+                    grid-template-areas:
+                        "t t"
+                        "i i";
+                }
+
+                .image-box {
+                    grid-area: i;
+                    display: flex;
+
+                    .image-holder {
+                        position: relative;
+                        display: flex;
+                        inline-size: 100%;
+                        aspect-ratio: calc(16 / 9);
+                        border-radius: 1rem;
+                        overflow: hidden;
+
+                        .image {
+                            position: absolute;
+                            inline-size: 100%;
+                            block-size: 100%;
+                            object-fit: cover;
+                            object-position: center;
+                        }
+                    }
+                }
+
+                .text-box {
+                    grid-area: t;
+                    display: flex;
+                    align-items: center;
+
+                    .text {
+                        font-size: 2rem;
+
+                        .bold {
+                            font-weight: $weight-bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .workshop-service-section {
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem 0;
+            margin-inline: auto;
+
+            .flex-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas: "t i";
+                column-gap: 5rem;
+                row-gap: 5rem;
+                padding-inline: min(5rem, 5%);
+                padding-block: 5rem;
+                border-radius: 1rem;
+                background-color: $color-white-light;
+
+                &.reversed {
+                    grid-template-areas: "i t";
+                }
+
+                @media (max-width: 1024px) {
+                    grid-template-areas:
+                        "t t"
+                        "i i";
+
+                    &.reversed {
+                        grid-template-areas:
+                            "t t"
+                            "i i";
+                    }
+                }
+
+                .list-box {
+                    grid-area: t;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    row-gap: 2.5rem;
+
+                    .title {
+                        font-size: 3rem;
+                        font-weight: $weight-bold;
+                    }
+
+                    .list {
+                        list-style: none;
+
+                        .list-item {
+                            display: flex;
+                            column-gap: 2rem;
+                            font-size: 2rem;
+                        }
+                    }
+                }
+
+                .image-box {
+                    grid-area: i;
+                    display: flex;
+
+                    .image-holder {
+                        position: relative;
+                        display: flex;
+                        inline-size: 100%;
+                        aspect-ratio: calc(16 / 9);
+                        border-radius: 1rem;
+                        overflow: hidden;
+
+                        .image {
+                            position: absolute;
+                            inline-size: 100%;
+                            block-size: 100%;
+                            object-fit: cover;
+                            object-position: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .workshop-info-section {
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem 10rem;
+            margin-inline: auto;
+
+            .text {
+                font-size: 2rem;
+                font-weight: $weight-bold;
+                text-align: center;
+                padding-inline: min(5rem, 5%);
+                padding-block: 5rem;
+                border-radius: 1rem;
+                background-color: $color-white-light;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Leica Lino L6G Set",
+    "image": "/images/shop/linienlaser/leica-lino-l6g-set-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": false,
+            "description": "Grüne Laserlinien erzielen eine Reichweite von bis zu 70 m im Durchmesser, wodurch sie sich perfekt für größere Räume und helle Umgebungen eignen. Der maximale Arbeitsbereich kann durch den Einsatz des Laserempfängers Leica RGR 200 auf bis zu 140 m erweitert werden."
+        },
+        {
+            "bullet": false,
+            "description": "Das stoßdämpfende Design sowie Spritzwasser- und Staubschutz (IP54) machen diesen grünen Multi-Linienlaser für jede Baustelle geeignet."
+        },
+        {
+            "bullet": false,
+            "description": "Die Verstellrädchen zur Feineinstellung und die exzentrische Basis des Lasers ermöglichen eine Drehung der Laserlinien um ± 10° um den Lotpunkt, während der Laser seine Position beibehält; dies ermöglicht eine schnelle und präzise Positionierung für alle Ausricht-, Lot-, Nivellier- oder Layoutaufgaben."
+        },
+        {
+            "bullet": false,
+            "description": "Der Lino L6G lässt sich leicht an einer Vielzahl von Oberflächen befestigen. Die leistungsstarken Magnet-Adapter passen in U-Profile und ermöglichen eine Befestigung an ferromagnetischen Eckleisten, Schienen oder sogar an Rundrohren. Mit dem zusätzlichen Adapter UAL 130 lässt sich der grüne Multi-Linienlaser auch einfach an Kanten fixieren. Dies ist ideal für abgehängte Deckeninstallationen, die Übertragung von Referenzhöhen oder komplexe Trockenbauinstallationen in großen Räumen."
+        },
+        {
+            "bullet": false,
+            "description": "Sie können jede grüne 360° Laserlinie einzeln auswählen, die beim Einschalten des Geräts erscheinen soll. Das bedeutet, dass Ihre Laserlinieneinstellungen und deren Intensität auf dem Gerät gespeichert werden und es damit nach dem Einschalten sofort einsatzbereit ist."
+        },
+        {
+            "bullet": false,
+            "description": "Der Lino L6G ist ein selbstnivellierender Multi-Linienlaser. Er passt seine Ausrichtung um bis zu ± 4° automatisch an, wenn er leicht schräg steht, ohne dass eine manuelle Ausrichtung erforderlich ist."
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/linienlaser/leica-lino-l6g.pdf"
+        }
+    ]
+}

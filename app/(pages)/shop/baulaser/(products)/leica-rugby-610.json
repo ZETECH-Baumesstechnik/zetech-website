@@ -1,0 +1,22 @@
+{
+    "name": "Leica Rugby 610",
+    "image": "/images/shop/baulaser/leica-rugby-610-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": true,
+            "description": "Einfacher und zuverlässiger Ein-Tasten-Laser, der keine Bedienfehler zulässt"
+        },
+        {
+            "bullet": true,
+            "description": "Hervorragende Leistung mit allen Leica Rod Eye-Empfängern - erweitern Sie Ihren Arbeitsbereich mit dem Rod Eye 140 Classic oder dem Rod Eye 160 Digital"
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/baulaser/leica-rugby-600-series.pdf"
+        }
+    ]
+}

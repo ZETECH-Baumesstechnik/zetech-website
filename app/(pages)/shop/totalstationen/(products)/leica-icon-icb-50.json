@@ -1,0 +1,30 @@
+{
+    "name": "Leica iCON iCB 50",
+    "image": "/images/shop/totalstationen/leica-icon-icb-50-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": true,
+            "description": "Schnelle und präzise Absteckung von Punkten und Linien"
+        },
+        {
+            "bullet": true,
+            "description": "Einfache Absteckung komplexer Strukturen"
+        },
+        {
+            "bullet": true,
+            "description": "Schnelle Prüfung der senkrechten Ausrichtung von Schalungen und Strukturen"
+        },
+        {
+            "bullet": true,
+            "description": "Schnelle und präzise Durchführung von Kontrollmessungen"
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/totalstationen/leica-icon-icb-50-icb-70.pdf"
+        }
+    ]
+}

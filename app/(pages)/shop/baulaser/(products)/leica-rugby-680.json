@@ -1,0 +1,26 @@
+{
+    "name": "Leica Rugby 680",
+    "image": "/images/shop/baulaser/leica-rugby-680-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": true,
+            "description": "Hervorragender, vielseitig einsetzbarer Baulaser mit digitaler Neigungsmöglichkeit"
+        },
+        {
+            "bullet": true,
+            "description": "Neigungen können in ein oder zwei Achsen eingegeben werden. Einfach und schnell, mit nur einem Tastendruck!"
+        },
+        {
+            "bullet": true,
+            "description": "Die einzigartige Smart SlopeFunktion überwacht Zeit- und Temperaturveränderungen kontinuierlich, um über den ganzen Tag hinweg eine hohe Genauigkeit sicherstellen zu können"
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/baulaser/leica-rugby-600-series.pdf"
+        }
+    ]
+}
