@@ -1,11 +1,11 @@
 import Products from "@/app/(pages)/shop/(components)/products.jsx";
 
-import data from "@/app/(pages)/shop/empfaenger/data.json";
+import overview from "@/app/(pages)/shop/empfaenger/overview.json";
 
 export const metadata = {
     title: "Empfänger",
 };
 
 export default function Page() {
-    return <Products data={data} />;
+    return <Products overview={overview} />;
 }

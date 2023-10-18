@@ -132,6 +132,7 @@
                     grid-template-areas:
                         "h i"
                         "p i";
+                    column-gap: 5rem;
                     row-gap: 5rem;
                     padding-inline: min(5rem, 5%);
                     padding-block: 5rem;
@@ -209,14 +210,10 @@
                         .image-holder {
                             display: flex;
                             position: relative;
-                            inline-size: 80%;
+                            inline-size: 100%;
                             aspect-ratio: calc(16 / 9);
                             border-radius: 1rem;
                             border: 1px solid black;
-
-                            @media (max-width: 768px) {
-                                inline-size: 100%;
-                            }
                         }
                     }
                 }
@@ -298,6 +295,7 @@
                     grid-template-areas:
                         "i h"
                         "i p";
+                    column-gap: 5rem;
                     row-gap: 5rem;
                     padding-inline: min(5rem, 5%);
                     padding-block: 5rem;
@@ -375,14 +373,10 @@
                         .image-holder {
                             display: flex;
                             position: relative;
-                            inline-size: 80%;
+                            inline-size: 100%;
                             aspect-ratio: calc(16 / 9);
                             border-radius: 1rem;
                             border: 1px solid black;
-
-                            @media (max-width: 768px) {
-                                inline-size: 100%;
-                            }
                         }
                     }
                 }

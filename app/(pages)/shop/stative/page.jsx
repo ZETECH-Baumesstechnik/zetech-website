@@ -1,11 +1,11 @@
 import Products from "@/app/(pages)/shop/(components)/products.jsx";
 
-import data from "@/app/(pages)/shop/stative/data.json";
+import overview from "@/app/(pages)/shop/stative/overview.json";
 
 export const metadata = {
     title: "Stative",
 };
 
 export default function Page() {
-    return <Products data={data} />;
+    return <Products overview={overview} />;
 }

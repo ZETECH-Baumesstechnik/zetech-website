@@ -1,0 +1,50 @@
+{
+    "name": "Leica Distanzmessgerät X4",
+    "image": "/images/shop/distanzmessgeraete/leica-disto-x4-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": true,
+            "description": "Integrierter 360° Neigungssensor"
+        },
+        {
+            "bullet": true,
+            "description": "Digitaler Zielsucher mit (4-fach-Zoom)"
+        },
+        {
+            "bullet": true,
+            "description": "Beleuchtetes sowie rotierendes Farbdisplay für perfekte Lesbarkeit"
+        },
+        {
+            "bullet": true,
+            "description": "Intelligente Flächenmessung"
+        },
+        {
+            "bullet": true,
+            "description": "Addieren / Subtrahieren von Flächen und Volumina"
+        },
+        {
+            "bullet": true,
+            "description": "Zusätzlich steht die Funktion ''Höhentracking'' zur Verfügung"
+        },
+        {
+            "bullet": true,
+            "description": "Zusammen mit dem optionalen Leica DST 360 Adapter lässt sich die X-Serie zu einer leistungsstarken 3D-Aufnahmestation erweitern"
+        },
+        {
+            "bullet": true,
+            "description": "Mit dem optionalen Paket DST 360 können Sie Punkte präzise anzielen sowie Distanzen zwischen beliebigen 2 Punkten messen"
+        },
+        {
+            "bullet": true,
+            "description": "Der Leica DISTO X3 und X4 lassen sich schnell und einfach mit einer App verbinden zum übertragen und dokumentieren von Messungen"
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/distanzmessgeraete/leica-disto-x4.pdf"
+        }
+    ]
+}

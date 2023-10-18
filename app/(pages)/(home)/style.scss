@@ -311,6 +311,7 @@
                     grid-template-areas:
                         "h i"
                         "t i";
+                    column-gap: 5rem;
                     row-gap: 5rem;
                     padding-inline: min(5rem, 5%);
                     padding-block: 5rem;
@@ -436,14 +437,10 @@
                         .image-holder {
                             position: relative;
                             display: flex;
-                            inline-size: 80%;
+                            inline-size: 100%;
                             aspect-ratio: calc(16 / 9);
                             border-radius: 1rem;
                             border: 1px solid white;
-
-                            @media (max-width: 768px) {
-                                inline-size: 100%;
-                            }
                         }
                     }
                 }

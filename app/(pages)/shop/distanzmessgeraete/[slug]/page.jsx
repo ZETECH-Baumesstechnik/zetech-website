@@ -1,25 +1,27 @@
-import Product from "@/app/(pages)/shop/(components)/product.jsx";
+import fs from "fs";
 
-import data from "@/app/(pages)/shop/distanzmessgeraete/data.json";
+import Product from "@/app/(pages)/shop/(components)/product.jsx";
 
 import { notFound } from "next/navigation";
 
-export function generateMetadata({ params }) {
-    const product = data.products.find((product) => product.slug === params.slug);
+function getProduct(name) {
+    const folder = "distanzmessgeraete";
+    const file = `app/(pages)/shop/${folder}/(products)/${name}.json`;
+    const product = JSON.parse(fs.readFileSync(file, "utf-8"));
 
-    if (!product) {
-        return {
-            title: "404",
-        };
-    } else {
-        return {
-            title: product.name,
-        };
-    }
+    return product;
 }
 
-export default function Page({ params }) {
-    const product = data.products.find((product) => product.slug === params.slug);
+export function generateMetadata(props) {
+    const product = getProduct(props.params.slug);
+
+    if (!product) notFound();
+
+    return { title: product.name };
+}
+
+export default function Page(props) {
+    const product = getProduct(props.params.slug);
 
     if (!product) notFound();
 

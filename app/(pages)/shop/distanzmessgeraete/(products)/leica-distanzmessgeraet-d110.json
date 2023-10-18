@@ -1,0 +1,30 @@
+{
+    "name": "Leica Distanzmessgerät D110",
+    "image": "/images/shop/distanzmessgeraete/leica-disto-110-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": true,
+            "description": "Der D110 ist der kleinste aus der Leica DISTO Serie mit integrierter Bluetooth® Smart Technologie"
+        },
+        {
+            "bullet": true,
+            "description": "Ergonomisch geformt liegt er perfekt in der Hand"
+        },
+        {
+            "bullet": true,
+            "description": "Mit seinen vier Tasten ist er schnell und intuitiv zu bedienen und ermöglicht Distanz- und Flächenmessungen in Sekundenschnelle"
+        },
+        {
+            "bullet": true,
+            "description": "Die neueste Leica App DISTO sketch ist das ideale Bindeglied zwischen dem D110 und einem Smartphone oder Tablet"
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/distanzmessgeraete/leica-disto-110.pdf"
+        }
+    ]
+}

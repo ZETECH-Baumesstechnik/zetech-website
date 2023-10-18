@@ -1,0 +1,42 @@
+{
+    "name": "Leica Distanzmessgerät D510",
+    "image": "/images/shop/distanzmessgeraete/leica-disto-d510-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": true,
+            "description": "Präzises Anzielen und zuverlässige Messungen im Außenbereich"
+        },
+        {
+            "bullet": true,
+            "description": "Bei ungünstigen Lichtbedingungen, wie z. B. hellem Sonnenlicht und bei weit entfernten Objekten ist das Ziel exakt auf dem hochauflösenden Farbdisplay im Fadenkreuz zu erkennen"
+        },
+        {
+            "bullet": true,
+            "description": "Mit dem multifunktionalen Endstück, das automatisch erkannt wird, können Sie bequem aus Ecken herausmessen"
+        },
+        {
+            "bullet": true,
+            "description": "Der Disto D510 kann bei allen Wetterbedingungen eingesetzt werden (IP65). Er ist staubdicht und strahlwassergeschützt"
+        },
+        {
+            "bullet": true,
+            "description": "Reichweite von bis zu 200 m und einer Genauigkeit von ± 1 mm"
+        },
+        {
+            "bullet": true,
+            "description": "Mit dem D510 können Sie sich die Maße in m, ft, in und yd anzeigen lassen"
+        },
+        {
+            "bullet": true,
+            "description": "Einheiten im Neigungssensor 0,0°, 0,00 %, mm/m und in/ft"
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/distanzmessgeraete/leica-disto-d510.pdf"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Leica NA724",
+    "image": "/images/shop/nivelliere/leica-na700-1.webp",
+    "descriptions_title": "Eigenschaften und Leistungen:",
+    "descriptions": [
+        {
+            "bullet": false,
+            "description": "Die Leica NA700 Nivelliere trotzen den härtesten Baustellenumgebungen. Kein regelmäßiges Überprüfen in der Werkstatt, kein ständiges Neujustieren - das spart Zeit und Geld. Wenn extreme Robustheit und optimale Messgenauigkeit gefordert werden, sind die Leica NA700 Nivelliere schwer zu schlagen:"
+        },
+        {
+            "bullet": true,
+            "description": "Einfache Bedienung"
+        },
+        {
+            "bullet": true,
+            "description": "Keine Umrechnung von Altgrad in Neugrad"
+        },
+        {
+            "bullet": true,
+            "description": "Komfortables Anzielen"
+        },
+        {
+            "bullet": true,
+            "description": "Komfortables Ablesen"
+        },
+        {
+            "bullet": true,
+            "description": "Durchgehend klare Sicht"
+        },
+        {
+            "bullet": true,
+            "description": "Hervorragender Kontrast"
+        },
+        {
+            "bullet": true,
+            "description": "Stoßsicher"
+        },
+        {
+            "bullet": true,
+            "description": "Schutzart IP57 - wasser- und staubdicht"
+        },
+        {
+            "bullet": false,
+            "description": "Starker Regen, staubige Umgebungen und Erschütterungen von schweren Baumaschinen beeinträchtigen Sie nicht bei Ihrer Arbeit mit den NA700 Nivellieren. Sie wurden speziell für anspruchsvolle Einsatzorte entwickelt und verfügen über Schutzart IP57, was bedeutet, dass sie staubgeschützt und wasserdicht sind. Sogar nach dem Eintauchen in Wasser können Sie mit Ihren Nivellieraufgaben fortfahren und Sie erhalten dabei die gleichen verlässlichen und genauen Ergebnisse."
+        },
+        {
+            "bullet": false,
+            "description": "Egal, ob es früh am Morgen oder spät am Abend ist - mit den NA700 Nivellieren können Sie zu jeder Zeit Messungen durchführen, auch bei ungünstigen Lichtbedingungen. Die hohe Lichtstärke liefert Ihnen einen hervorragenden Kontrast und ein scharfes, aufrechtes Bild für einen ergonomischen Blick und eine komfortable Ablesung. Das stickstoffgefüllte Fernrohr vermeidet das Beschlagen der Linse und sorgt für einen klaren Durchblick."
+        },
+        {
+            "bullet": false,
+            "description": "Senken Sie Ihre Betriebskosten auf ein Minimum. Dank des stabilsten und zuverlässigsten Kompensators am Markt benötigen die NA700 Nivelliere weniger Neujustierungen oder Prüfungen in der Werkstatt. Sogar auf Baustellen mit Erschütterungen durch schwere Baumaschinen können Sie sich auf genaue Nivellement-Ergebnisse verlassen."
+        },
+        {
+            "bullet": false,
+            "description": "Sie möchten Distanzen messen, Bezugslinien zuweisen, Höhenunterschiede definieren oder Höhen ablesen? Je nach Anwendungsfall und geforderter Genauigkeit bietet die NA700 Serie das richtige Nivellier für Ihre täglichen Aufgaben."
+        }
+    ],
+    "datasheets_title": "Dokumente:",
+    "datasheets": [
+        {
+            "description": "Leica Produktedatenblatt",
+            "datasheet": "/documents/shop/nivelliere/leica-na700-series.pdf"
+        }
+    ]
+}

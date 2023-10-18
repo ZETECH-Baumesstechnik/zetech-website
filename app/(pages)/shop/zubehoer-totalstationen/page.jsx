@@ -1,11 +1,11 @@
 import Products from "@/app/(pages)/shop/(components)/products.jsx";
 
-import data from "@/app/(pages)/shop/zubehoer-totalstationen/data.json";
+import overview from "@/app/(pages)/shop/zubehoer-totalstationen/overview.json";
 
 export const metadata = {
     title: "Zubehör Totalstationen",
 };
 
 export default function Page() {
-    return <Products data={data} />;
+    return <Products overview={overview} />;
 }

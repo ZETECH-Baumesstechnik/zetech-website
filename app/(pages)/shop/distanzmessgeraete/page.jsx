@@ -1,11 +1,11 @@
 import Products from "@/app/(pages)/shop/(components)/products.jsx";
 
-import data from "@/app/(pages)/shop/distanzmessgeraete/data.json";
+import overview from "@/app/(pages)/shop/distanzmessgeraete/overview.json";
 
 export const metadata = {
     title: "Distanzmessgeräte",
 };
 
 export default function Page() {
-    return <Products data={data} />;
+    return <Products overview={overview} />;
 }
