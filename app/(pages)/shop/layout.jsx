@@ -2,7 +2,7 @@ import "@/app/(pages)/shop/style.scss";
 
 import Navigation from "@/app/(pages)/shop/(components)/navigation.jsx";
 
-export default function Layout({ children }) {
+export default function Layout(props) {
     return (
         <main className="shop-page">
             <section className="intro-section">
@@ -18,7 +18,7 @@ export default function Layout({ children }) {
                 <div className="section-container">
                     <div className="flex-grid">
                         <Navigation />
-                        {children}
+                        {props.children}
                     </div>
                 </div>
             </section>

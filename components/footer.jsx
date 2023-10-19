@@ -1,6 +1,6 @@
 import "@/components/footer.scss";
 
-import overview from "@/app/(pages)/shop/overview.json";
+import categoriesData from "@/app/(pages)/shop/categories.json";
 
 import Link from "next/link";
 
@@ -54,8 +54,8 @@ export default function Footer() {
                                     Shop
                                 </Link>
                                 <div className="sub-links-container">
-                                    {overview.products.map((product, index) => (
-                                        <Link href={product.link} key={index} className="sub-link">
+                                    {categoriesData.products.map((product, index) => (
+                                        <Link href={product.link} className="sub-link" key={index}>
                                             {product.name}
                                         </Link>
                                     ))}

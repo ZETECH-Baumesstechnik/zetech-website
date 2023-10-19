@@ -1,0 +1,326 @@
+{
+    "category": "Baulaser",
+    "products": [
+        {
+            "name": "Leica Rugby 610",
+            "link": "/shop/baulaser/leica-rugby-610",
+            "image": "/images/shop/baulaser/leica-rugby-610-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Einfacher und zuverlässiger Ein-Tasten-Laser, der keine Bedienfehler zulässt"
+                },
+                {
+                    "bullet": true,
+                    "description": "Hervorragende Leistung mit allen Leica Rod Eye-Empfängern - erweitern Sie Ihren Arbeitsbereich mit dem Rod Eye 140 Classic oder dem Rod Eye 160 Digital"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/leica-rugby-600-series.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica Rugby 620",
+            "link": "/shop/baulaser/leica-rugby-620",
+            "image": "/images/shop/baulaser/leica-rugby-620-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Betonieren, Fundamente setzten oder Stützen platzieren - noch nie konnten diese Arbeiten effizienter erledigt werden!"
+                },
+                {
+                    "bullet": true,
+                    "description": "Böschungen bis zu 8 % manuell in einer Achse einstellbar"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/leica-rugby-600-series.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica Rugby 640",
+            "link": "/shop/baulaser/leica-rugby-640",
+            "image": "/images/shop/baulaser/leica-rugby-640-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Geeignet für jede Art von Nivellier-, Ausricht- und Absteckarbeiten in Innen- und Außenbereichen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Arbeiten Sie bequem mit Versätzen dank der digitalen Anzeige des Rod-Eye-Empfängers"
+                },
+                {
+                    "bullet": true,
+                    "description": "Scan 90 - einfacheres Abstecken durch schnelles Bewegen des Lasers um 90 Grad nach links oder rechts"
+                },
+                {
+                    "bullet": true,
+                    "description": "Abloten - automatische und genaue Ausrichtung über einem Referenzpunkt"
+                },
+                {
+                    "bullet": true,
+                    "description": "Schlafmodus - schonen Sie die Batterie und versetzen Sie den Leica Rugby in den Schlafmodus, ohne Ihre Arbeiten zu stören"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/leica-rugby-600-series.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica Rugby 640 G",
+            "link": "/shop/baulaser/leica-rugby-640-g",
+            "image": "/images/shop/baulaser/leica-rugby-640-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Die neue grüne Diodentechnologie des Rugby 640G bietet hervorragende Sichtbarkeit für Innenanwendungen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Geeignet für jede Art von Nivellier-, Ausricht- und Absteckarbeiten in Innen- und Außenbereichen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Arbeiten Sie bequem mit Versätzen dank der digitalen Anzeige des Rod-Eye-Empfängers"
+                },
+                {
+                    "bullet": true,
+                    "description": "Scan 90 - einfacheres Abstecken durch schnelles Bewegen des Lasers um 90 Grad nach links oder rechts"
+                },
+                {
+                    "bullet": true,
+                    "description": "Abloten - automatische und genaue Ausrichtung über einem Referenzpunkt"
+                },
+                {
+                    "bullet": true,
+                    "description": "Schlafmodus - schonen Sie die Batterie und versetzen Sie den Leica Rugby in den Schlafmodus, ohne Ihre Arbeiten zu stören"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/leica-rugby-600-series.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica Rugby 680",
+            "link": "/shop/baulaser/leica-rugby-680",
+            "image": "/images/shop/baulaser/leica-rugby-680-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Hervorragender, vielseitig einsetzbarer Baulaser mit digitaler Neigungsmöglichkeit"
+                },
+                {
+                    "bullet": true,
+                    "description": "Neigungen können in ein oder zwei Achsen eingegeben werden. Einfach und schnell, mit nur einem Tastendruck!"
+                },
+                {
+                    "bullet": true,
+                    "description": "Die einzigartige Smart SlopeFunktion überwacht Zeit- und Temperaturveränderungen kontinuierlich, um über den ganzen Tag hinweg eine hohe Genauigkeit sicherstellen zu können"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/leica-rugby-600-series.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica Rugby CLA-CTIVE",
+            "link": "/shop/baulaser/leica-rugby-cla-ctive",
+            "image": "/images/shop/baulaser/leica-rugby-cla-ctive-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": false,
+                    "description": "Maximale Flexibilität und eine schnelle Anpassung an die Projektanforderungen sind für Ihren Erfolg unverzichtbar. Mit dem Leica Rugby CLA-ctive und CLH können Sie Ihre Laser aufrüsten, um sie an die Anforderungen Ihrer Anwendung anzupassen. Sie zahlen nur für die von Ihnen benötigten Funktionen und nicht für Extra-Ausstattungen, die Sie nicht nutzen. Dank zusätzlicher Services wie Reparatur und Kalibrierung können Sie die hohe Leistungsfähigkeit Ihres Lasers für viele Jahre sicherstellen."
+                },
+                {
+                    "bullet": false,
+                    "description": "Da er sich durch Software-Upgrades Onboard-Betrieb an verschiedenste Anforderungen anpassen lässt, ist Leica Rugby CLA der erste aufrüstbare Laser zur Steigerung der Produktivität und Leistung auf der Baustelle. Die Aufrüstmöglichkeiten sorgen für unschlagbare Leistungen bei Nivellier-, Ausricht- und Absteckarbeiten und machen ihn zu einem echten Multitalent."
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/leica-rugby-cla-clh.pdf"
+                },
+                {
+                    "description": "Leica Broschüre",
+                    "datasheet": "/documents/shop/baulaser/leica-rugby-cla-clh-brochure.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica Rugby CLH",
+            "link": "/shop/baulaser/leica-rugby-clh",
+            "image": "/images/shop/baulaser/leica-rugby-clh-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": false,
+                    "description": "Maximale Flexibilität und eine schnelle Anpassung an die Projektanforderungen sind für Ihren Erfolg unverzichtbar. Mit dem Leica Rugby CLA-ctive und CLH können Sie Ihre Laser aufrüsten, um sie an die Anforderungen Ihrer Anwendung anzupassen. Sie zahlen nur für die von Ihnen benötigten Funktionen und nicht für Extra-Ausstattungen, die Sie nicht nutzen. Dank zusätzlicher Services wie Reparatur und Kalibrierung können Sie die hohe Leistungsfähigkeit Ihres Lasers für viele Jahre sicherstellen."
+                },
+                {
+                    "bullet": false,
+                    "description": "Die Einfachheit des Leica Rugby CLH macht die Nutzung aller Möglichkeiten des Lasersystems ganz leicht. Sie sparen Zeit durch vereinfachte Prozesse und sind deutlich produktiver. Seine robuste Konstruktion sorgt für Messbeständigkeit und Genauigkeit bei den täglichen Aufgaben. Die Aufrüstoptionen steigern die Leistung bei allen Nivellierungsanwendungen."
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/leica-rugby-cla-clh.pdf"
+                },
+                {
+                    "description": "Leica Broschüre",
+                    "datasheet": "/documents/shop/baulaser/leica-rugby-cla-clh-brochure.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Geomax 20H",
+            "link": "/shop/baulaser/geomax-20h",
+            "image": "/images/shop/baulaser/geomax-20h-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Die Rotationslaser der GeoMax Zone Serie sind robust (IP67), vielseitig (900 m Arbeitsbereich) und bieten ein außergewöhnliches Preis-Leistungs-Verhältnis"
+                },
+                {
+                    "bullet": true,
+                    "description": "Der Zone20 H Horizotallaser ist mit Selbstnivellierung und manueller Neigung in zwei Achsen ideal für Beton- und Schalungsarbeiten"
+                },
+                {
+                    "bullet": true,
+                    "description": "Bester Anwendungsbereich: Außenbereich"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Geomax Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/geomax-laser-rotators-series.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Geomax 20HV",
+            "link": "/shop/baulaser/geomax-20hv",
+            "image": "/images/shop/baulaser/geomax-20hv-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Die Rotationslaser der GeoMax Zone Serie sind robust (IP67), vielseitig (900 m Arbeitsbereich) und bieten ein außergewöhnliches Preisleistungsverhältnis"
+                },
+                {
+                    "bullet": true,
+                    "description": "Der Zone20 HV erweitert den Zone20 H zum Multifunktionslaser für vielseitige Anwendungen auf allen Baustellen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Bester Anwendungsbereich: Vielzweckinstrument für Innen- und Außenbereich"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Geomax Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/geomax-laser-rotators-series.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Geomax 60HG",
+            "link": "/shop/baulaser/geomax-60hg",
+            "image": "/images/shop/baulaser/geomax-60hg-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Die Rotationslaser der GeoMax Zone Serie sind robust (IP67), vielseitig (900 Meter Arbeitsbereich) und bieten ein außergewöhnliches Preis-Leistungs-Verhältnis"
+                },
+                {
+                    "bullet": true,
+                    "description": "Der Zone60 HG ist ein Horizontallaser mit digitaler Neigung bis 8 % und überzeugender Genauigkeit"
+                },
+                {
+                    "bullet": true,
+                    "description": "Durch das Display sind Einstellungen von Neigungen in zwei Achsen sehr einfach"
+                },
+                {
+                    "bullet": true,
+                    "description": "Bester Anwendungsbereich: Außenbereich"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Geomax Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/geomax-laser-rotators-series.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Geomax 60DG",
+            "link": "/shop/baulaser/geomax-60dg",
+            "image": "/images/shop/baulaser/geomax-60dg-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Die Rotationslaser der GeoMax Zone Serie sind robust (IP67), vielseitig (900 Meter Arbeitsbereich) und bieten ein außergewöhnliches Preis-Leistungs-Verhältnis"
+                },
+                {
+                    "bullet": true,
+                    "description": "Der Zone 60DG ist ein vollautomatischer 2-Achs Neigungslaser (DG = Dual Grade) mit digitaler Neigung bis 15 % für jede Baustelle"
+                },
+                {
+                    "bullet": true,
+                    "description": "Mit der Fernbedienung ZRC60 haben Sie die volle Kontrolle bis zu 300 m"
+                },
+                {
+                    "bullet": true,
+                    "description": "Durch das Display sind Einstellungen von Neigungen in zwei Achsen, horizontal und vertikal sehr einfach"
+                },
+                {
+                    "bullet": true,
+                    "description": "Bester Arbeitsbereich: Außenbereich"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Geomax Produktedatenblatt",
+                    "datasheet": "/documents/shop/baulaser/geomax-laser-rotators-series.pdf"
+                }
+            ]
+        }
+    ]
+}

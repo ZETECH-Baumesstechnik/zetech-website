@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Products(props) {
     return (
         <div className="products-box">
-            <h2 className="title">{props.overview.category}</h2>
+            <h2 className="title">{props.data.category}</h2>
             <div className="products-grid">
-                {props.overview.products.map((product, index) => (
+                {props.data.products.map((product, index) => (
                     <div className="product" key={index}>
                         <h2 className="title">{product.name}</h2>
                         <Link href={product.link} className="image-holder">

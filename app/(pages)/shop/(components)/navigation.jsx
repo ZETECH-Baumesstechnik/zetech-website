@@ -1,6 +1,6 @@
 "use client";
 
-import overview from "@/app/(pages)/shop/overview.json";
+import categoriesData from "@/app/(pages)/shop/categories.json";
 
 import Link from "next/link";
 
@@ -14,9 +14,9 @@ export default function Navigation() {
             <h2 className="title">Katalog</h2>
             <nav className="navigation">
                 <Link href={"/shop"} className={path === "/shop" ? "link active" : "link"} key={-1}>
-                    {overview.category}
+                    {categoriesData.category}
                 </Link>
-                {overview.products.map((product, index) => (
+                {categoriesData.products.map((product, index) => (
                     <Link href={product.link} className={path.includes(product.link) ? "link active" : "link"} key={index}>
                         {product.name}
                     </Link>

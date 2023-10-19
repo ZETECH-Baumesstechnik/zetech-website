@@ -1,6 +1,6 @@
 import "@/app/(pages)/kontakt/style.scss";
 
-import team from "@/app/(pages)/kontakt/team.json";
+import hierarchyData from "@/app/(pages)/kontakt/hierarchy.json";
 
 import Link from "next/link";
 
@@ -33,7 +33,7 @@ export default function Page() {
                             <span className="gradient">ANSPRECHPARTNER</span>
                         </h2>
                         <div className="departments-container">
-                            {team.map((department, index) => (
+                            {hierarchyData.map((department, index) => (
                                 <div className="sub-flex-grid" key={index}>
                                     <h3 className="title">{department.department}</h3>
                                     <div className="partner-flex-grid">

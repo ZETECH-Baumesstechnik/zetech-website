@@ -1,11 +1,11 @@
 import Products from "@/app/(pages)/shop/(components)/products.jsx";
 
-import overview from "@/app/(pages)/shop/overview.json";
+import categoriesData from "@/app/(pages)/shop/categories.json";
 
 export const metadata = {
     title: "Shop",
 };
 
 export default function Page() {
-    return <Products overview={overview} />;
+    return <Products data={categoriesData} />;
 }

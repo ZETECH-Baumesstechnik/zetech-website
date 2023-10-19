@@ -44,6 +44,11 @@
 
                         &.service {
                             grid-area: b;
+                            justify-content: flex-end;
+
+                            @media (max-width: 1024px) {
+                                justify-content: flex-start;
+                            }
                         }
                     }
                 }
@@ -68,6 +73,7 @@
 
                         &.kontakt {
                             grid-area: c;
+                            justify-content: flex-end;
                         }
                     }
                 }
@@ -167,8 +173,6 @@
                 }
 
                 .socials-box {
-                    inline-size: fit-content;
-                    margin-inline: auto;
                     display: flex;
                     justify-content: center;
                     text-align: center;

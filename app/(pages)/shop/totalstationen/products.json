@@ -1,0 +1,172 @@
+{
+    "category": "Totalstationen",
+    "products": [
+        {
+            "name": "Leica iCON iCR 70",
+            "link": "/shop/totalstationen/leica-icon-icr-70",
+            "image": "/images/shop/totalstationen/leica-icon-icr-70-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Abstecken von Linien für Fundamente oder Schlagschnur-Markierungen an Betonschalungen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Abstecken von Punkten auf der Ausgleichsschicht, beispielsweise für Rohreinlässe oder Aussparungen vor dem Betonieren"
+                },
+                {
+                    "bullet": true,
+                    "description": "Abstecken von Gebäudetechnik an Aufhängepositionen für Lüftungs- und Klimaanlagen, Einlässen und Schlitzen für Blecharbeiten"
+                },
+                {
+                    "bullet": true,
+                    "description": "Vollautomatische Absteckroutinen von Punkten auf dem Boden oder an der Decke und Linien für Rohrdurchführungen an Mauern"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/totalstationen/leica-icon-icr-70-icr-80.pdf"
+                },
+                {
+                    "description": "Leica iCON Build",
+                    "datasheet": "/documents/shop/leica-icon-build.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica iCON iCR 80",
+            "link": "/shop/totalstationen/leica-icon-icr-80",
+            "image": "/images/shop/totalstationen/leica-icon-icr-80-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Abstecken von Linien für Fundamente oder Schlagschnur-Markierungen an Betonschalungen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Abstecken von Punkten auf der Ausgleichsschicht, beispielsweise für Rohreinlässe oder Aussparungen vor dem Betonieren"
+                },
+                {
+                    "bullet": true,
+                    "description": "Einfaches Abstecken mittels echter Konstruktionsdaten, von 2D-CAD bis zu objektbasierten BIM-Modellen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Abstecken von Gebäudetechnik an Mauerdurchführungen für Rohre, Aufhängepositionen für Lüftungs- und Klimaanlagen, Einlässe und Schlitze für Blecharbeiten"
+                },
+                {
+                    "bullet": true,
+                    "description": "Bestandsaufnahme und Kontrollaufgaben direkt vor Ort erledigen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Steuerung einer Vielzahl von Baumaschinen wie Straßenfräsen, Asphalt- oder Betonfertiger, Grader oder Planierraupen"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/totalstationen/leica-icon-icr-70-icr-80.pdf"
+                },
+                {
+                    "description": "Leica iCON Build",
+                    "datasheet": "/documents/shop/leica-icon-build.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica iCON iCB 50",
+            "link": "/shop/totalstationen/leica-icon-icb-50",
+            "image": "/images/shop/totalstationen/leica-icon-icb-50-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Schnelle und präzise Absteckung von Punkten und Linien"
+                },
+                {
+                    "bullet": true,
+                    "description": "Einfache Absteckung komplexer Strukturen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Schnelle Prüfung der senkrechten Ausrichtung von Schalungen und Strukturen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Schnelle und präzise Durchführung von Kontrollmessungen"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/totalstationen/leica-icon-icb-50-icb-70.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica iCON iCB 70",
+            "link": "/shop/totalstationen/leica-icon-icb-70",
+            "image": "/images/shop/totalstationen/leica-icon-icb-70-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Einhaltung strenger Projekttoleranzen durch Messung mit Prisma"
+                },
+                {
+                    "bullet": true,
+                    "description": "Schnelle und präzise Absteckung von Punkten und Linien auch in komplexen Strukturen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Prüfung der senkrechten Ausrichtung von Schalungen und Strukturen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Schnelle und präzise Durchführung von Kontrollmessungen"
+                },
+                {
+                    "bullet": true,
+                    "description": "Bericht von Volumenberechnungen direkt von der Baustelle"
+                },
+                {
+                    "bullet": true,
+                    "description": "Verwendung digitaler Entwurfsdaten einschließlich vollständig gerenderter Modelle im IFC-Format"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/totalstationen/leica-icon-icb-50-icb-70.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Leica AP20 AutoPole",
+            "link": "/shop/totalstationen/leica-ap20-autopole",
+            "image": "/images/shop/totalstationen/leica-ap20-autopole-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": false,
+                    "description": "Der Leica AP20 AutoPole ist ein revolutionäres intelligentes System für Leica Robotic Totalstationen, das einfach in der Benutzung ist und dank nahtloser Integration die digitalen Bauabläufe der Feldsoftware Leica iCON verbessert. Ganz gleich, ob er im Hoch- oder Tiefbau zum Einsatz kommt – er meistert wichtige Herausforderungen, denen sich Bauprofis tagtäglich im Umgang mit Totalstationen gegenüber sehen, und liefert einen echten digitalen Bauablauf, indem er auch noch den letzten analogen Vermessungsschritt entfernt: den Lotstab. Der AP20 AutoPole steigert mit seiner einzigartigen Zielsuche und -identifikation, seiner automatischen Erkennung der Lotstabhöhe und deren Aktualisierung in der Feldsoftware sowie seiner Neigungskompensation die Präzision und Produktivität in den verschiedenen Bauphasen. Mit dem AP20 AutoPole können Absteckarbeiten, die Erstellung von Bestandsplänen und andere Vermessungsaufgaben schneller, zuverlässiger und mit weniger Fehlern durchgeführt werden. So bleiben Nacharbeiten und Verzögerungen auf ein Minimum beschränkt."
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Leica Produktedatenblatt",
+                    "datasheet": "/documents/shop/totalstationen/leica-ap20-autopole.pdf"
+                }
+            ]
+        }
+    ]
+}
