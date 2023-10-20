@@ -1,7 +1,5 @@
 import "@/components/footer.scss";
 
-import categoriesData from "@/app/(pages)/shop/categories.json";
-
 import Link from "next/link";
 
 import { BiLogoInstagramAlt } from "react-icons/bi";
@@ -13,101 +11,82 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer-container">
                 <div className="flex-grid">
-                    <nav className="footer-navigation">
-                        <div className="nav-box-a">
-                            <div className="nav-box dienstleistungen">
-                                <Link href={"/dienstleistungen"} className="header-link">
-                                    Dienstleistungen
-                                </Link>
-                                <div className="sub-links-container">
-                                    <Link href={"/dienstleistungen"} className="sub-link">
-                                        Datenaufbereitung
+                    <div className="boxes-flex-grid">
+                        <nav className="flex-group">
+                            <div className="align-box">
+                                <p className="group-header">Links</p>
+                                <div className="sub-flex-group">
+                                    <Link href={"/"} className="group-text link">
+                                        Home
                                     </Link>
-                                    <Link href={"/dienstleistungen"} className="sub-link">
-                                        Bestandaufnahme
+                                    <Link href={"/dienstleistungen"} className="group-text link">
+                                        Dienstleistungen
                                     </Link>
-                                    <Link href={"/dienstleistungen"} className="sub-link">
-                                        Massenermittlung / Aufnahme
+                                    <Link href={"/service"} className="group-text link">
+                                        Service
                                     </Link>
-                                    <Link href={"/dienstleistungen"} className="sub-link">
-                                        Schulungen
+                                    <Link href={"/shop"} className="group-text link">
+                                        Shop
+                                    </Link>
+                                    <Link href={"/downloads"} className="group-text link">
+                                        Downloads
+                                    </Link>
+                                    <Link href={"/kontakt"} className="group-text link">
+                                        Kontakt
                                     </Link>
                                 </div>
                             </div>
-                            <div className="nav-box service">
-                                <Link href={"/service"} className="header-link">
-                                    Service
-                                </Link>
-                                <div className="sub-links-container">
-                                    <Link href={"/service"} className="sub-link">
-                                        Service
-                                    </Link>
-                                    <Link href={"/service"} className="sub-link">
-                                        Werkstatt
-                                    </Link>
+                        </nav>
+                        <div className="flex-group">
+                            <div className="align-box">
+                                <p className="group-header">Öffnungszeiten</p>
+                                <div className="sub-flex-group">
+                                    <p className="group-text">Montag {"-"} Freitag</p>
+                                    <p className="group-text">07.30 Uhr {"-"} 12.00 Uhr</p>
+                                    <p className="group-text">13.00 Uhr {"-"} 17.00 Uhr</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="nav-box-b">
-                            <div className="nav-box shop">
-                                <Link href={"/shop"} className="header-link">
-                                    Shop
-                                </Link>
-                                <div className="sub-links-container">
-                                    {categoriesData.products.map((product, index) => (
-                                        <Link href={product.link} className="sub-link" key={index}>
-                                            {product.name}
-                                        </Link>
-                                    ))}
-                                </div>
-                            </div>
-                            <div className="nav-box downloads">
-                                <Link href={"/downloads"} className="header-link">
-                                    Downloads
-                                </Link>
-                                <div className="sub-links-container">
-                                    <Link href={"/downloads"} className="sub-link">
-                                        TeamViewer
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className="nav-box kontakt">
-                                <Link href={"/kontakt"} className="header-link">
-                                    Kontakt
-                                </Link>
-                                <div className="sub-links-container">
-                                    <p className="sub-text">Luzernerstrasse 88A</p>
-                                    <p className="sub-text">6014 Luzern</p>
-                                    <Link href={"/kontakt"} className="sub-link">
+                        <div className="flex-group">
+                            <div className="align-box">
+                                <p className="group-header">Kontaktdaten</p>
+                                <div className="sub-flex-group">
+                                    <p className="group-text">Luzernerstrasse 88A</p>
+                                    <p className="group-text">6014 Luzern</p>
+                                    <Link href={"/kontakt"} className="group-text link">
                                         +41 41 250 32 02
                                     </Link>
-                                    <Link href={"/kontakt"} className="sub-link">
+                                    <Link href={"/kontakt"} className="group-text link">
                                         info@zetech.ch
                                     </Link>
                                 </div>
                             </div>
                         </div>
-                    </nav>
-                    <div className="group-box">
-                        <div className="open-hours-box">
-                            <p className="title">Öffnungszeiten</p>
-                            <p className="open-days">Montag {"-"} Freitag</p>
-                            <div className="hours-box">
-                                <p className="morning-hours">07.30 Uhr {"-"} 12.00 Uhr</p>
-                                <p className="afternoon-hours">13.00 Uhr {"-"} 17.00 Uhr</p>
+                        <nav className="flex-group">
+                            <div className="align-box">
+                                <p className="group-header">Soziales</p>
+                                <div className="sub-flex-group">
+                                    <Link href={"/kontakt"} className="holder link">
+                                        <div className="icon-holder">
+                                            <BiLogoInstagramAlt className="icon" />
+                                        </div>
+                                        <p className="group-text">Instagram</p>
+                                    </Link>
+                                    <Link href={"/kontakt"} className="holder link">
+                                        <div className="icon-holder">
+                                            <BiLogoFacebookCircle className="icon" />
+                                        </div>
+                                        <p className="group-text">Facebook</p>
+                                    </Link>
+                                    <Link href={"/kontakt"} className="holder link">
+                                        <div className="icon-holder">
+                                            <BsEnvelopeFill className="icon" />
+                                        </div>
+                                        <p className="group-text">E-Mail</p>
+                                    </Link>
+                                </div>
                             </div>
-                        </div>
-                        <div className="socials-box">
-                            <Link href={"/"} aria-label="Instagram" className="social-link">
-                                <BiLogoInstagramAlt />
-                            </Link>
-                            <Link href={"/"} aria-label="Facebook" className="social-link">
-                                <BiLogoFacebookCircle />
-                            </Link>
-                            <Link href={"/"} aria-label="Mail" className="social-link">
-                                <BsEnvelopeFill />
-                            </Link>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </div>

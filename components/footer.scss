@@ -14,187 +14,92 @@
             grid-template-columns: 1fr;
             row-gap: 5rem;
 
-            .footer-navigation {
+            .boxes-flex-grid {
                 display: grid;
-                grid-template-columns: 1fr 2fr;
+                grid-template-columns: repeat(4, 1fr);
+                row-gap: 5rem;
 
                 @media (max-width: 1024px) {
-                    grid-template-columns: 1fr;
+                    grid-template-columns: repeat(2, 1fr);
                 }
 
-                .nav-box-a {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    grid-template-rows: min-content 1fr;
-                    grid-template-areas:
-                        "a"
-                        "b";
-                    row-gap: 10rem;
+                .flex-group {
+                    display: flex;
+                    justify-content: center;
 
                     @media (max-width: 1024px) {
-                        grid-template-columns: repeat(2, 1fr);
-                        grid-template-areas: "a b";
-                        row-gap: 5rem;
+                        justify-content: flex-start;
                     }
 
-                    .nav-box {
-                        &.dienstleistungen {
-                            grid-area: a;
-                        }
-
-                        &.service {
-                            grid-area: b;
-                            justify-content: flex-end;
-
-                            @media (max-width: 1024px) {
-                                justify-content: flex-start;
-                            }
-                        }
-                    }
-                }
-
-                .nav-box-b {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    grid-template-rows: min-content 1fr;
-                    grid-template-areas:
-                        "a b"
-                        "a c";
-                    row-gap: 10rem;
-
-                    .nav-box {
-                        &.shop {
-                            grid-area: a;
-                        }
-
-                        &.downloads {
-                            grid-area: b;
-                        }
-
-                        &.kontakt {
-                            grid-area: c;
-                            justify-content: flex-end;
-                        }
-                    }
-                }
-
-                .nav-box-a,
-                .nav-box-b {
-                    .nav-box {
+                    .align-box {
                         display: flex;
                         flex-direction: column;
-                        text-align: center;
                         row-gap: 1rem;
 
-                        .header-link {
+                        .group-header {
+                            position: relative;
                             inline-size: fit-content;
-                            margin-inline: auto;
                             color: $color-white-dark;
                             font-size: 2rem;
                             font-weight: $weight-bold;
-                            padding-inline: 1rem;
-                            padding-block: 0.5rem;
-                            border-radius: 1rem;
-                            transition-property: background-color;
-                            transition-timing-function: ease-in-out;
-                            transition-duration: 200ms;
 
-                            &:hover {
-                                background-color: $color-black-light;
+                            &::before {
+                                position: absolute;
+                                content: "";
+                                inset-inline-start: 0;
+                                inset-block-end: -0.5rem;
+                                inline-size: 50%;
+                                block-size: 1px;
+                                background-color: $color-white-dark;
                             }
                         }
 
-                        .sub-links-container {
+                        .sub-flex-group {
                             display: flex;
                             flex-direction: column;
-                            text-align: center;
 
-                            .sub-link {
+                            .group-text {
                                 inline-size: fit-content;
-                                margin-inline: auto;
                                 color: $color-white-dark;
                                 font-size: 2rem;
-                                padding-inline: 1rem;
-                                padding-block: 0.5rem;
-                                border-radius: 1rem;
-                                transition-property: background-color;
+                                transition-property: color;
                                 transition-timing-function: ease-in-out;
                                 transition-duration: 200ms;
 
-                                &:hover {
-                                    background-color: $color-black-light;
+                                &.link {
+                                    &:hover {
+                                        color: $color-black-light;
+                                    }
                                 }
                             }
 
-                            .sub-text {
-                                color: $color-white-dark;
-                                font-size: 2rem;
-                                padding-inline: 1rem;
-                                padding-block: 0.5rem;
+                            .holder {
+                                inline-size: fit-content;
+                                display: flex;
+                                align-items: center;
+                                column-gap: 2rem;
+
+                                &.link {
+                                    &:hover {
+                                        .group-text,
+                                        .icon {
+                                            color: $color-black-light;
+                                        }
+                                    }
+                                }
+
+                                .icon-holder {
+                                    display: flex;
+
+                                    .icon {
+                                        color: $color-white-dark;
+                                        font-size: 2rem;
+                                        transition-property: color;
+                                        transition-timing-function: ease-in-out;
+                                        transition-duration: 200ms;
+                                    }
+                                }
                             }
-                        }
-                    }
-                }
-            }
-
-            .group-box {
-                display: flex;
-                flex-direction: column;
-                row-gap: 5rem;
-                isolation: isolate;
-
-                .open-hours-box {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    text-align: center;
-                    row-gap: 2rem;
-                    padding-block-start: 5rem;
-                    border-block-start: 5px solid $color-black-light;
-
-                    .title {
-                        color: $color-white-dark;
-                        font-size: 2rem;
-                        font-weight: $weight-bold;
-                    }
-
-                    .open-days {
-                        color: $color-white-dark;
-                        font-size: 2rem;
-                    }
-
-                    .hours-box {
-                        color: $color-white-dark;
-                        font-size: 2rem;
-                        display: flex;
-                        flex-direction: column;
-                        row-gap: 1rem;
-                    }
-                }
-
-                .socials-box {
-                    display: flex;
-                    justify-content: center;
-                    text-align: center;
-                    column-gap: 5rem;
-                    padding-inline: min(10rem, 10%);
-                    padding-block: 1rem;
-                    border-radius: 1rem;
-                    background-image: $color-gradient-blue;
-
-                    .social-link {
-                        display: flex;
-                        color: $color-white-dark;
-                        font-size: 4rem;
-                        padding-inline: 1rem;
-                        padding-block: 0.5rem;
-                        border-radius: 1rem;
-                        transition-property: background-color;
-                        transition-timing-function: ease-in-out;
-                        transition-duration: 200ms;
-
-                        &:hover {
-                            background-color: $color-black-dark;
                         }
                     }
                 }
