@@ -162,6 +162,9 @@
             position: relative;
             display: flex;
             block-size: 30rem;
+            border-end-start-radius: 1rem;
+            border-end-end-radius: 1rem;
+            overflow: hidden;
 
             .banner {
                 position: absolute;
@@ -218,6 +221,7 @@
         position: relative;
         overflow: hidden;
         isolation: isolate;
+        border-radius: 1rem;
         background-color: $color-black-dark;
 
         &::before {

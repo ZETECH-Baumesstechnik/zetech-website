@@ -1,6 +1,9 @@
 @import "@/variables";
 
 .footer {
+    border-block-start: 3px solid $color-white-light;
+    border-start-start-radius: 1rem;
+    border-start-end-radius: 1rem;
     background-color: $color-black-dark;
 
     .footer-container {
