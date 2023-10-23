@@ -2,6 +2,8 @@ import "@/app/(pages)/dienstleistungen/style.scss";
 
 import Link from "next/link";
 
+import { RxOpenInNewWindow } from "react-icons/rx";
+
 export const metadata = {
     title: "Dienstleistungen",
 };
@@ -39,6 +41,7 @@ export default function Page() {
                                     <iframe src="/documents/dienstleistungen/model.html" loading="lazy" className="frame"></iframe>
                                     <Link href={"/documents/dienstleistungen/model.html"} target="_blank" className="model-link">
                                         Model öffnen
+                                        <RxOpenInNewWindow className="icon" />
                                     </Link>
                                 </div>
                             </div>
