@@ -35,7 +35,12 @@ export default function Page() {
                                 </Link>
                             </div>
                             <div className="image-box">
-                                <div className="image-holder"></div>
+                                <div className="image-holder">
+                                    <iframe src="/documents/dienstleistungen/model.html" loading="lazy" className="frame"></iframe>
+                                    <Link href={"/documents/dienstleistungen/model.html"} target="_blank" className="model-link">
+                                        Model öffnen
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
