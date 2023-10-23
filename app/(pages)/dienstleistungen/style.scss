@@ -213,7 +213,7 @@
                             inline-size: 100%;
                             aspect-ratio: calc(16 / 9);
                             border-radius: 1rem;
-                            // border: 1px solid black;
+                            background-color: $color-white-dark;
                             overflow: hidden;
 
                             .frame {
@@ -221,6 +221,7 @@
                                 inline-size: 100%;
                                 block-size: 100%;
                                 object-position: center;
+                                border: none;
                             }
 
                             .model-link {
@@ -233,7 +234,6 @@
                                 color: $color-black-light;
                                 font-size: 2rem;
                                 padding-block: 0.5rem;
-                                // background-image: $color-gradient-blue;
                                 transition-property: color;
                                 transition-timing-function: ease-in-out;
                                 transition-duration: 200ms;
@@ -404,7 +404,7 @@
                             inline-size: 100%;
                             aspect-ratio: calc(16 / 9);
                             border-radius: 1rem;
-                            border: 1px solid black;
+                            background-color: $color-white-dark;
                         }
                     }
                 }
