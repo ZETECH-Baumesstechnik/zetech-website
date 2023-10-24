@@ -31,7 +31,7 @@ export default function Page() {
                                 <h3 className="title">Titel</h3>
                             </div>
                             <div className="text-box">
-                                <p className="text">Irgend en Text. askdskjfhdsjdhafgsjadhfg jasdhg asjdhfg sadfasjfgajfhadjhsdafjhgsadf jhsdgf jshdfg jasdhfg jsdkhfg jsdhafg jdshfg </p>
+                                <p className="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quo neque reprehenderit natus voluptatem pariatur, iusto magnam ex aliquid nemo cupiditate illo, saepe labore sit. Earum cumque ea perferendis mollitia libero rerum deleniti aspernatur excepturi quod accusantium magni, esse reiciendis ad, qui labore voluptas sunt, provident sint optio illo eveniet culpa laudantium enim. Rem ducimus corrupti totam, minus quaerat, tempore est ipsam laborum, commodi quam assumenda deserunt cupiditate similique labore repudiandae fugiat exercitationem amet nesciunt eligendi dolore.</p>
                                 <Link href={"/kontakt"} className="link">
                                     Kontakt aufnehmen
                                 </Link>
@@ -124,3 +124,5 @@ export default function Page() {
         </main>
     );
 }
+
+
