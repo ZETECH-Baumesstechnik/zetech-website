@@ -53,7 +53,9 @@ export default function Page() {
                                 </Link>
                             </div>
                             <div className="image-box flex-end">
-                                <div className="image-holder"></div>
+                                <div className="image-holder">
+                                    <iframe src="/documents/dienstleistungen/model.html" referrerPolicy="no-referrer" loading="lazy" title="3D Model" className="frame"></iframe>
+                                </div>
                             </div>
                         </ScrollContainer>
                         <ScrollContainer classes={"sub-flex-grid reversed"}>

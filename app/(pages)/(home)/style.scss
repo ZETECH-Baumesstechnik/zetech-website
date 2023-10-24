@@ -444,7 +444,16 @@
                             inline-size: 100%;
                             aspect-ratio: calc(16 / 9);
                             border-radius: 1rem;
-                            border: 1px solid white;
+                            overflow: hidden;
+                            background-color: $color-black-dark;
+
+                            .frame {
+                                position: absolute;
+                                inline-size: 100%;
+                                block-size: 100%;
+                                object-position: center;
+                                border: none;
+                            }
                         }
                     }
                 }
