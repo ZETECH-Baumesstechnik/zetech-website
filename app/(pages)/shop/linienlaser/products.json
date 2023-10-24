@@ -415,6 +415,45 @@
             ]
         },
         {
+            "name": "Nestle Octoliner G",
+            "link": "/shop/linienlaser/nestle-octoliner-g",
+            "image": "/images/shop/linienlaser/nestle-octoliner-g-1.webp",
+            "descriptions_title": "Eigenschaften und Leistungen:",
+            "descriptions": [
+                {
+                    "bullet": true,
+                    "description": "Der Octoliner-G entspricht in seinen Anwendungseigenschaften dem Nestle Octoliner"
+                },
+                {
+                    "bullet": true,
+                    "description": "360° Horizontallinie"
+                },
+                {
+                    "bullet": true,
+                    "description": "4 zuschaltbare Vertikallinien und Lotpunkt"
+                },
+                {
+                    "bullet": true,
+                    "description": "Motorisierte Selbstnivellierung (abschaltbar)"
+                },
+                {
+                    "bullet": true,
+                    "description": "5/8 Anschluss, Seitenfeintrieb, justierbare Beinschrauben"
+                },
+                {
+                    "bullet": true,
+                    "description": "Der Octoliner-G ist auch für den Einsatz mit einem Empfänger geeignet"
+                }
+            ],
+            "datasheets_title": "Dokumente:",
+            "datasheets": [
+                {
+                    "description": "Nestle Produktedatenblatt",
+                    "datasheet": "/documents/shop/linienlaser/nestle-octoliner-g.pdf"
+                }
+            ]
+        },
+        {
             "name": "Nestle Octoliner",
             "link": "/shop/linienlaser/nestle-octoliner",
             "image": "/images/shop/linienlaser/nestle-octoliner-1.webp",
@@ -460,45 +499,7 @@
                     "datasheet": "/documents/shop/linienlaser/nestle-octoliner.pdf"
                 }
             ]
-        },
-        {
-            "name": "Nestle Octoliner G",
-            "link": "/shop/linienlaser/nestle-octoliner-g",
-            "image": "/images/shop/linienlaser/nestle-octoliner-g-1.webp",
-            "descriptions_title": "Eigenschaften und Leistungen:",
-            "descriptions": [
-                {
-                    "bullet": true,
-                    "description": "Der Octoliner-G entspricht in seinen Anwendungseigenschaften dem Nestle Octoliner"
-                },
-                {
-                    "bullet": true,
-                    "description": "360° Horizontallinie"
-                },
-                {
-                    "bullet": true,
-                    "description": "4 zuschaltbare Vertikallinien und Lotpunkt"
-                },
-                {
-                    "bullet": true,
-                    "description": "Motorisierte Selbstnivellierung (abschaltbar)"
-                },
-                {
-                    "bullet": true,
-                    "description": "5/8 Anschluss, Seitenfeintrieb, justierbare Beinschrauben"
-                },
-                {
-                    "bullet": true,
-                    "description": "Der Octoliner-G ist auch für den Einsatz mit einem Empfänger geeignet"
-                }
-            ],
-            "datasheets_title": "Dokumente:",
-            "datasheets": [
-                {
-                    "description": "Nestle Produktedatenblatt",
-                    "datasheet": "/documents/shop/linienlaser/nestle-octoliner-g.pdf"
-                }
-            ]
         }
+        
     ]
 }
