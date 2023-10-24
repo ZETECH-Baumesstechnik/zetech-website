@@ -50,7 +50,7 @@
                 display: flex;
                 column-gap: 1rem;
 
-                @media (max-width: 1200px) {
+                @media (max-width: $screen-xl) {
                     position: fixed;
                     inset-inline: 0;
                     inset-block: $header-block-size 100%;
@@ -79,7 +79,7 @@
                     transition-timing-function: ease-in-out;
                     transition-duration: 200ms;
 
-                    @media (max-width: 1200px) {
+                    @media (max-width: $screen-xl) {
                         inline-size: 80%;
                         color: $color-white-dark;
                         font-size: 3rem;
@@ -123,7 +123,7 @@
                     }
                 }
 
-                @media (max-width: 1200px) {
+                @media (max-width: $screen-xl) {
                     display: initial;
                 }
 
