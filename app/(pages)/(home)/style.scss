@@ -84,6 +84,31 @@
                     }
                 }
 
+                .link-box {
+                    display: flex;
+                    justify-content: center;
+
+                    .link {
+                        color: $color-black-light;
+                        font-size: 2rem;
+                        text-align: center;
+                        padding-inline: 3rem;
+                        padding-block: 1rem;
+                        margin-block-end: -2.5rem;
+                        border-radius: 3rem;
+                        border: 1px solid $color-white-dark;
+                        background-color: $color-white-dark;
+                        transition-property: background-color;
+                        transition-timing-function: ease-in-out;
+                        transition-duration: 200ms;
+
+                        &:hover {
+                            color: $color-white-dark;
+                            background-color: $color-black-light;
+                        }
+                    }
+                }
+
                 .navigation-box {
                     display: flex;
                     justify-content: space-between;
@@ -93,7 +118,7 @@
                         display: flex;
                         padding-inline: 1rem;
                         padding-block: 1rem;
-                        border: 5px solid $color-white-dark;
+                        border: 1px solid $color-white-dark;
                         border-radius: 50%;
                         cursor: pointer;
                         background-color: $color-white-dark;

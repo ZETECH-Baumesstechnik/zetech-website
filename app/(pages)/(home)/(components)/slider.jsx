@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 import { useState, useRef, useCallback, useEffect } from "react";
 
 import { motion } from "framer-motion";
@@ -51,6 +53,11 @@ export default function Slider({ products }) {
                         <div className="image-holder">
                             <motion.img src={products[slide].image} alt={products[slide].name} initial={"initial"} animate={"animate"} variants={change} key={slide} loading="lazy" className="image" />
                         </div>
+                    </div>
+                    <div className="link-box">
+                        <Link href={products[slide].link} className="link">
+                            Zum Produkt
+                        </Link>
                     </div>
                     <div className="navigation-box">
                         <button aria-label="Previous" className="button-holder" onClick={prev}>

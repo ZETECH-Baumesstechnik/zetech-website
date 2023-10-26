@@ -9,7 +9,7 @@ export const metadata = {
         template: "%s | ZETECH Baumesstechnik GmbH",
     },
     description: "Beratung, Miete, Verkauf und Service von Baumesstechnik",
-    keywords: ["Tachymeter","Baumesstechnik", "Baulaser", "Baustelle","Robotik Station","GPS","Leica","Geomax","leica",],
+    keywords: ["Tachymeter", "Baumesstechnik", "Baulaser", "Baustelle", "Robotik Station", "GPS", "Leica", "Geomax", "leica"],
 };
 
 export default function RootLayout({ children }) {
