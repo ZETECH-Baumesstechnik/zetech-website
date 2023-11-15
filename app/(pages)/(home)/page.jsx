@@ -106,7 +106,7 @@ export default function Page() {
                         <div className="sub-flex-grid">
                             <ScrollContainer classes={"description-box"}>
                                 <h2 className="title">Über uns</h2>
-                                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illum earum deserunt unde obcaecati enim totam distinctio recusandae praesentium dicta explicabo, eum molestiae rem eveniet, consequatur eos porro natus soluta ab beatae ex vitae. Consequatur, impedit eius explicabo, veritatis modi cupiditate itaque ad doloremque illum natus earum, sunt quia ratione?</p>
+                                <p className="text">Wir sind über 20 Jahren als Vertreiber von Bauvermessungsinstrumenten und Zubehör tätig. Angefangen als „One Man Show“ durch den Gründer Alfred Zenklusen, beschäftigt die ZETECH Baumesstechnik GmbH heute über sechs Mitarbeiter und wird in zweiter Generation von Adrian Zenklusen geführt. In den über 20 Jahren wurde der Tätigkeitsbereich erweitert durch eine zertifizierte In-Haus Service Werkstatt. Ebenfalls um den steigenden Kundenbedürfnissen im Bereich „digitales Bauen“ Unterstützung bieten zu können, wurde das Dienstleistungsportfolio stark auf die Plandaten-Aufbereitung ausgebaut.</p>
                             </ScrollContainer>
                             <ScrollContainer classes={"description-box"}>
                                 <h2 className="title">BESCHREIBUNG</h2>
