@@ -47,7 +47,7 @@ export default function Page() {
                                 <h2 className="title">DIENSTLEISTUNGEN</h2>
                             </div>
                             <div className="text-box">
-                                <p className="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos dicta nesciunt excepturi tenetur error necessitatibus nam sapiente placeat voluptates! Nesciunt accusantium animi hic neque perferendis, enim quasi corporis esse repudiandae.</p>
+                                <p className="text">Vor und während der Bauausführung stehen wir Ihnen zur Seite. Von der Bearbeitung Ihrer Pläne und Daten für die Verwendung mit Robotik-Totalstationen, GPS Systemen oder Maschinensteuerungen bis zur Erstellung von 3D oder 2D Modellen und Geländedatenermittlungen.</p>
                                 <Link href={"/dienstleistungen"} className="link">
                                     Zur Übersicht
                                 </Link>
