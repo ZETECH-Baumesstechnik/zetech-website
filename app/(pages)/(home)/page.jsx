@@ -105,7 +105,7 @@ export default function Page() {
                         </ScrollContainer>
                         <div className="sub-flex-grid">
                             <ScrollContainer classes={"description-box"}>
-                                <h2 className="title">BESCHREIBUNG</h2>
+                                <h2 className="title">Über uns</h2>
                                 <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illum earum deserunt unde obcaecati enim totam distinctio recusandae praesentium dicta explicabo, eum molestiae rem eveniet, consequatur eos porro natus soluta ab beatae ex vitae. Consequatur, impedit eius explicabo, veritatis modi cupiditate itaque ad doloremque illum natus earum, sunt quia ratione?</p>
                             </ScrollContainer>
                             <ScrollContainer classes={"description-box"}>
