@@ -243,54 +243,14 @@
     }
 
     .services-section {
-        position: relative;
-        overflow: hidden;
-        isolation: isolate;
         border-radius: 1rem;
         background-color: $color-black-dark;
-
-        &::before {
-            position: absolute;
-            content: "";
-            inset-inline-start: 0;
-            inset-block-start: 0;
-            inline-size: 50%;
-            block-size: 50%;
-            filter: blur(200px);
-            opacity: 0.75;
-            border-radius: 25%;
-            background-image: $color-gradient-blue;
-            z-index: -5;
-            animation-name: rotate-before;
-            animation-timing-function: linear;
-            animation-iteration-count: infinite;
-            animation-duration: 60s;
-        }
-
-        &::after {
-            position: absolute;
-            content: "";
-            inset-inline-end: 0;
-            inset-block-end: 0;
-            inline-size: 50%;
-            block-size: 50%;
-            filter: blur(200px);
-            opacity: 0.75;
-            border-radius: 25%;
-            background-image: $color-gradient-blue;
-            z-index: -5;
-            animation-name: rotate-after;
-            animation-timing-function: linear;
-            animation-iteration-count: infinite;
-            animation-duration: 60s;
-        }
 
         .section-container {
             inline-size: min($max-size, 100%);
             padding-inline: min(5rem, 5%);
             padding-block: 10rem 11rem;
             margin-inline: auto;
-            overflow: hidden;
 
             > .title-box {
                 .title {
@@ -704,41 +664,5 @@
                 }
             }
         }
-    }
-}
-
-@keyframes rotate-before {
-    25% {
-        transform: translate(100%, 0);
-    }
-
-    50% {
-        transform: translate(100%, 100%);
-    }
-
-    75% {
-        transform: translate(0, 100%);
-    }
-
-    100% {
-        transform: translate(0, 0);
-    }
-}
-
-@keyframes rotate-after {
-    25% {
-        transform: translate(-100%, 0);
-    }
-
-    50% {
-        transform: translate(-100%, -100%);
-    }
-
-    75% {
-        transform: translate(0, -100%);
-    }
-
-    100% {
-        transform: translate(0, 0);
     }
 }

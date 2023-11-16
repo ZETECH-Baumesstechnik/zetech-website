@@ -24,9 +24,9 @@ export default function Page() {
                 <div className="section-container">
                     <ScrollContainer classes={"title-box"}>
                         <h1 className="title">
-                            IHRE EXPERTEN IN SACHEN
+                            Ihre Experten in Sachen
                             <br />
-                            <span className="gradient">BAUMESSTECHNIK</span>
+                            <span className="gradient">digitales Bauen und Bauvermessung</span>
                         </h1>
                     </ScrollContainer>
                 </div>
@@ -36,15 +36,15 @@ export default function Page() {
                 <div className="section-container">
                     <ScrollContainer classes={"title-box"}>
                         <h1 className="title">
-                            UNSERE
+                            Unser
                             <br />
-                            <span className="gradient">FACHGEBIETE</span>
+                            <span className="gradient">Kerngeschäft</span>
                         </h1>
                     </ScrollContainer>
                     <div className="flex-grid">
                         <ScrollContainer classes={"sub-flex-grid"}>
                             <div className="title-box">
-                                <h2 className="title">DIENSTLEISTUNGEN</h2>
+                                <h2 className="title">Dienstleistungen</h2>
                             </div>
                             <div className="text-box">
                                 <p className="text">Vor und während der Bauausführung stehen wir Ihnen zur Seite. Von der Bearbeitung Ihrer Pläne und Daten für die Verwendung mit Robotik-Totalstationen, GPS Systemen oder Maschinensteuerungen bis zur Erstellung von 3D oder 2D Modellen und Geländedatenermittlungen.</p>
@@ -60,7 +60,7 @@ export default function Page() {
                         </ScrollContainer>
                         <ScrollContainer classes={"sub-flex-grid reversed"}>
                             <div className="title-box">
-                                <h2 className="title">SERVICE</h2>
+                                <h2 className="title">Service</h2>
                             </div>
                             <div className="text-box">
                                 <p className="text">Unsere zertifizierte Service-Werkstatt erledigt für Sie Reparaturen, Kontrollen und Service Arbeiten an Ihren Messinstrumenten. Nebst Tachymeter, Baulaser, Nivellier, etc., sind wir bis zu den High-End Robotik-Totalstationen autorisiert und durch die Leica Geosystems AG zertifiziert, Service Arbeiten, QS-Zertifikate, Kontrollen und Reparaturen durchzuführen.</p>
@@ -74,7 +74,7 @@ export default function Page() {
                         </ScrollContainer>
                         <ScrollContainer classes={"sub-flex-grid"}>
                             <div className="title-box">
-                                <h2 className="title">SHOP</h2>
+                                <h2 className="title">Shop</h2>
                             </div>
                             <div className="text-box">
                                 <p className="text">Mit unseren Bauvermessungsinstrumenten eruieren wir mit Ihnen die bestmögliche und optimale Lösung, damit Ihre Bau- und Fertigungsprozesse schneller, optimiert und mit kleinerem Aufwand ausgeführt werden können. Gerne beraten und stellen wir Ihnen das für Sie optimale Vermessungsgerät vor.</p>
@@ -98,9 +98,9 @@ export default function Page() {
                         </div>
                         <ScrollContainer classes={"title-box"}>
                             <h1 className="title">
-                                WIR SIND IHR
+                                Wir sind Ihr
                                 <br />
-                                <span className="gradient">STARKER PARTNER</span>
+                                <span className="gradient">starker Partner</span>
                             </h1>
                         </ScrollContainer>
                         <div className="sub-flex-grid">
@@ -110,8 +110,7 @@ export default function Page() {
                             </ScrollContainer>
                             <ScrollContainer classes={"description-box"}>
                                 <h2 className="title">Leitbild</h2>
-                                <p className="text">Nebst der immer höher werdenden Anforderungen an Präzision, Wirtschaftlichkeit und Komplexität der Bauvorhaben, schreitet die Digitalisierung in der Baubranche voran. BIM oder digitales Bauen werden immer häufiger ein wichtiger Begriff.
-Aus diesem Grund haben wir unsere Kernkompetenzen und Sortiment auf diese kommenden Herausforderungen spezialisiert und ausgerichtet. Unser Bestreben ist es weiterhin als sehr verlässlicher Partner unseren Kunden zur Seite zu stehen.</p>
+                                <p className="text">Nebst der immer höher werdenden Anforderungen an Präzision, Wirtschaftlichkeit und Komplexität der Bauvorhaben, schreitet die Digitalisierung in der Baubranche voran. BIM oder digitales Bauen werden immer häufiger ein wichtiger Begriff. Aus diesem Grund haben wir unsere Kernkompetenzen und Sortiment auf diese kommenden Herausforderungen spezialisiert und ausgerichtet. Unser Bestreben ist es weiterhin als sehr verlässlicher Partner unseren Kunden zur Seite zu stehen.</p>
                             </ScrollContainer>
                         </div>
                     </div>
