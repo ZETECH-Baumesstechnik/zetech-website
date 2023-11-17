@@ -54,7 +54,7 @@ export default function Page() {
                             </div>
                             <div className="image-box flex-end">
                                 <div className="image-holder">
-                                    <img src="/images/home/home-dienstleistung-bil.png" className="frame"/>
+                                    <img src="/images/home/home-dienstleistung-bild.png" className="frame"/>
                                 </div>
                             </div>
                         </ScrollContainer>
