@@ -54,7 +54,7 @@ export default function Page() {
                             </div>
                             <div className="image-box flex-end">
                                 <div className="image-holder">
-                                    <iframe src="/documents/dienstleistungen/model.html" referrerPolicy="no-referrer" loading="lazy" title="3D Model" className="frame"></iframe>
+                                    <img src="/images/home/home-dienstleistung-bil.png" className="frame"/>
                                 </div>
                             </div>
                         </ScrollContainer>
