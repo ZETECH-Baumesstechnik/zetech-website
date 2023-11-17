@@ -44,36 +44,6 @@ export default function Page() {
                     <div className="flex-grid">
                         <ScrollContainer classes={"sub-flex-grid"}>
                             <div className="title-box">
-                                <h2 className="title">Dienstleistungen</h2>
-                            </div>
-                            <div className="text-box">
-                                <p className="text">Vor und während der Bauausführung stehen wir Ihnen zur Seite. Von der Bearbeitung Ihrer Pläne und Daten für die Verwendung mit Robotik-Totalstationen, GPS Systemen oder Maschinensteuerungen bis zur Erstellung von 3D oder 2D Modellen und Geländedatenermittlungen.</p>
-                                <Link href={"/dienstleistungen"} className="link">
-                                    Zur Übersicht
-                                </Link>
-                            </div>
-                            <div className="image-box flex-end">
-                                <div className="image-holder">
-                                    <img src="/images/home/home-dienstleistung-bild.png" className="frame"/>
-                                </div>
-                            </div>
-                        </ScrollContainer>
-                        <ScrollContainer classes={"sub-flex-grid reversed"}>
-                            <div className="title-box">
-                                <h2 className="title">Service</h2>
-                            </div>
-                            <div className="text-box">
-                                <p className="text">Unsere zertifizierte Service-Werkstatt erledigt für Sie Reparaturen, Kontrollen und Service Arbeiten an Ihren Messinstrumenten. Nebst Tachymeter, Baulaser, Nivellier, etc., sind wir bis zu den High-End Robotik-Totalstationen autorisiert und durch die Leica Geosystems AG zertifiziert, Service Arbeiten, QS-Zertifikate, Kontrollen und Reparaturen durchzuführen.</p>
-                                <Link href={"/service"} className="link">
-                                    Zum Service
-                                </Link>
-                            </div>
-                            <div className="image-box flex-start">
-                                <div className="image-holder"></div>
-                            </div>
-                        </ScrollContainer>
-                        <ScrollContainer classes={"sub-flex-grid"}>
-                            <div className="title-box">
                                 <h2 className="title">Shop</h2>
                             </div>
                             <div className="text-box">
@@ -83,7 +53,41 @@ export default function Page() {
                                 </Link>
                             </div>
                             <div className="image-box flex-end">
-                                <div className="image-holder"></div>
+                                <div className="image-holder">
+                                    <img src="" alt="" className="asset" />
+                                </div>
+                            </div>
+                        </ScrollContainer>
+                        <ScrollContainer classes={"sub-flex-grid reversed"}>
+                            <div className="title-box">
+                                <h2 className="title">Dienstleistungen</h2>
+                            </div>
+                            <div className="text-box">
+                                <p className="text">Vor und während der Bauausführung stehen wir Ihnen zur Seite. Von der Bearbeitung Ihrer Pläne und Daten für die Verwendung mit Robotik-Totalstationen, GPS Systemen oder Maschinensteuerungen bis zur Erstellung von 3D oder 2D Modellen und Geländedatenermittlungen.</p>
+                                <Link href={"/dienstleistungen"} className="link">
+                                    Zur Übersicht
+                                </Link>
+                            </div>
+                            <div className="image-box flex-start">
+                                <div className="image-holder">
+                                    <img src="/images/home/home-dienstleistung-bild.png" alt="Ablauf Datenaufbereitung" className="asset" />
+                                </div>
+                            </div>
+                        </ScrollContainer>
+                        <ScrollContainer classes={"sub-flex-grid"}>
+                            <div className="title-box">
+                                <h2 className="title">Service</h2>
+                            </div>
+                            <div className="text-box">
+                                <p className="text">Unsere zertifizierte Service-Werkstatt erledigt für Sie Reparaturen, Kontrollen und Service Arbeiten an Ihren Messinstrumenten. Nebst Tachymeter, Baulaser, Nivellier, etc., sind wir bis zu den High-End Robotik-Totalstationen autorisiert und durch die Leica Geosystems AG zertifiziert, Service Arbeiten, QS-Zertifikate, Kontrollen und Reparaturen durchzuführen.</p>
+                                <Link href={"/service"} className="link">
+                                    Zum Service
+                                </Link>
+                            </div>
+                            <div className="image-box flex-end">
+                                <div className="image-holder">
+                                    <img src="" alt="" className="asset" />
+                                </div>
                             </div>
                         </ScrollContainer>
                     </div>
@@ -94,7 +98,9 @@ export default function Page() {
                 <div className="section-container">
                     <div className="flex-grid">
                         <div className="image-box">
-                            <div className="image-holder"></div>
+                            <div className="image-holder">
+                                <img src="" alt="" className="asset" />
+                            </div>
                         </div>
                         <ScrollContainer classes={"title-box"}>
                             <h1 className="title">

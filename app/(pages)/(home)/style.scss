@@ -244,7 +244,7 @@
 
     .services-section {
         border-radius: 1rem;
-        background-color: $color-white-dark;
+        background-color: $color-white-light;
 
         .section-container {
             inline-size: min($max-size, 100%);
@@ -254,7 +254,7 @@
 
             > .title-box {
                 .title {
-                    color: $color-white-dark;
+                    color: $color-black-light;
                     font-size: 8rem;
                     font-weight: $weight-bold;
                     text-align: center;
@@ -329,20 +329,11 @@
                     &::before {
                         position: absolute;
                         content: "";
-                        inset: 0.5rem;
+                        inset: 0;
                         border-radius: 1rem;
-                        box-shadow: 0 0 1rem $color-black-dark;
-                        background-color: $color-black-light;
+                        // box-shadow: 0 0 1rem $color-black-dark;
+                        background-color: $color-white-dark;
                         z-index: -1;
-                    }
-
-                    &::after {
-                        position: absolute;
-                        content: "";
-                        inset: -1rem;
-                        border-radius: 1rem;
-                        background-image: $color-gradient-blue;
-                        z-index: -2;
                     }
 
                     .title-box {
@@ -356,7 +347,7 @@
                         }
 
                         .title {
-                            color: $color-white-dark;
+                            color: $color-black-light;
                             font-size: 4rem;
                             font-weight: $weight-bold;
 
@@ -374,7 +365,7 @@
                         row-gap: 5rem;
 
                         .text {
-                            color: $color-white-dark;
+                            color: $color-black-light;
                             font-size: 2rem;
                         }
 
@@ -386,7 +377,7 @@
                             padding-inline: 10rem;
                             padding-block: 0.5rem;
                             border-radius: 3rem;
-                            outline: 3px solid $color-white-dark;
+                            outline: 3px solid $color-black-light;
                             outline-offset: 3px;
                             background-image: $color-gradient-blue;
                             transition-property: outline-offset;
@@ -428,16 +419,13 @@
                             display: flex;
                             inline-size: 100%;
                             aspect-ratio: calc(16 / 9);
-                            border-radius: 1rem;
-                            overflow: hidden;
-                            background-color: $color-black-dark;
 
-                            .frame {
+                            .asset {
                                 position: absolute;
                                 inline-size: 100%;
                                 block-size: 100%;
+                                object-fit: contain;
                                 object-position: center;
-                                border: none;
                             }
                         }
                     }
@@ -468,8 +456,6 @@
                         display: flex;
                         inline-size: min(100rem, 100%);
                         aspect-ratio: calc(16 / 9);
-                        border-radius: 1rem;
-                        background-color: $color-white-light;
 
                         &::before {
                             position: absolute;
@@ -482,7 +468,7 @@
                             inset-block: -1rem;
                             border-radius: 1rem;
                             z-index: -1;
-                            background-color: $color-black-light;
+                            // background-color: $color-black-light;
                         }
 
                         &::after {
@@ -496,7 +482,14 @@
                             inset-block: 1rem;
                             border-radius: 1rem;
                             z-index: -1;
-                            background-color: $color-black-light;
+                            // background-color: $color-black-light;
+                        }
+
+                        .asset {
+                            position: absolute;
+                            inline-size: 100%;
+                            block-size: 100%;
+                            object-position: center;
                         }
                     }
                 }
@@ -551,7 +544,7 @@
                         position: relative;
                         display: flex;
                         flex-direction: column;
-                        row-gap: 5rem;
+                        row-gap: 3rem;
                         padding-inline: min(5rem, 5%);
                         padding-block: 5rem;
                         isolation: isolate;
@@ -561,22 +554,13 @@
                             content: "";
                             inset: 0;
                             border-radius: 1rem;
-                            box-shadow: 0 0 1rem $color-black-dark;
+                            // box-shadow: 0 0 1rem $color-black-dark;
                             background-color: $color-white-light;
                             z-index: -1;
                         }
 
-                        &::after {
-                            position: absolute;
-                            content: "";
-                            inset: -1rem;
-                            border-radius: 1rem;
-                            background-image: $color-gradient-blue;
-                            z-index: -2;
-                        }
-
                         .title {
-                            font-size: 3rem;
+                            font-size: 4rem;
                             font-weight: $weight-bold;
                         }
 
