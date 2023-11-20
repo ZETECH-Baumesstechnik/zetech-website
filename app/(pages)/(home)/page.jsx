@@ -54,7 +54,7 @@ export default function Page() {
                             </div>
                             <div className="image-box flex-end">
                                 <div className="image-holder">
-                                    <img src="" alt="" className="asset" />
+                                    <img src="/images/home/home-shop-bild.png" alt="" className="asset" />
                                 </div>
                             </div>
                         </ScrollContainer>
