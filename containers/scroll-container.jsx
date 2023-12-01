@@ -9,7 +9,7 @@ export default function ScrollContainer(props) {
 
     const { scrollYProgress } = useScroll({
         target: reference,
-        offset: ["0.25 1", "1 1"],
+        offset: ["0.25 1", "0.75 1"],
     });
 
     return (
