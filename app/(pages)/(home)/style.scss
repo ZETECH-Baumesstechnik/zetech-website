@@ -331,8 +331,12 @@
 
                             .title {
                                 color: $color-black-light;
-                                font-size: 5rem;
+                                font-size: 6rem;
                                 font-weight: $weight-bold;
+
+                                @media (max-width: $screen-xl) {
+                                    font-size: 5rem;
+                                }
 
                                 @media (max-width: $screen-sm) {
                                     font-size: 4rem;
@@ -418,8 +422,12 @@
 
                             .title {
                                 color: $color-black-light;
-                                font-size: 5rem;
+                                font-size: 6rem;
                                 font-weight: $weight-bold;
+
+                                @media (max-width: $screen-xl) {
+                                    font-size: 5rem;
+                                }
 
                                 @media (max-width: $screen-sm) {
                                     font-size: 4rem;
