@@ -60,11 +60,41 @@
         }
     }
 
-    .timeline-section {
+    .datenaufbereitung-section {
+        padding-block: 5rem;
+
+        .title-container {
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem;
+            margin-inline: min(5rem, 5%);
+            margin-block-end: 5rem;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 2rem -1rem $color-black-shadow;
+            background-color: $color-white-light;
+
+            .section-title {
+                inline-size: fit-content;
+                margin-inline: auto;
+                text-align: center;
+                color: transparent;
+                font-size: 8rem;
+                font-weight: $weight-bold;
+                background-image: $color-gradient-blue;
+                background-clip: text;
+
+                @media (max-width: $screen-md) {
+                    font-size: 6rem;
+                }
+
+                @media (max-width: $screen-sm) {
+                    font-size: 4rem;
+                }
+            }
+        }
+
         .section-container {
             inline-size: min($max-size, 100%);
             padding-inline: min(5rem, 5%);
-            padding-block: 5rem;
             margin-inline: auto;
 
             .grid-wrapper {
@@ -201,12 +231,8 @@
                             block-size: 100%;
 
                             .box-title {
-                                inline-size: fit-content;
-                                color: transparent;
                                 font-size: 6rem;
                                 font-weight: $weight-bold;
-                                background-image: $color-gradient-blue;
-                                background-clip: text;
 
                                 @media (max-width: $screen-xl) {
                                     font-size: 5rem;
@@ -219,6 +245,16 @@
 
                             .box-text {
                                 font-size: 2.5rem;
+                            }
+
+                            .box-list {
+                                list-style: none;
+
+                                .list-item {
+                                    display: flex;
+                                    column-gap: 2rem;
+                                    font-size: 2.5rem;
+                                }
                             }
                         }
                     }
@@ -242,6 +278,137 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .bestandaufnahme-section {
+        padding-block: 5rem;
+        background-color: $color-white-light;
+
+        .title-container {
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem;
+            margin-inline: min(5rem, 5%);
+            margin-block-end: 5rem;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 2rem -1rem $color-black-shadow;
+            background-color: $color-white-dark;
+
+            .section-title {
+                inline-size: fit-content;
+                margin-inline: auto;
+                text-align: center;
+                color: transparent;
+                font-size: 8rem;
+                font-weight: $weight-bold;
+                background-image: $color-gradient-blue;
+                background-clip: text;
+
+                @media (max-width: $screen-md) {
+                    font-size: 6rem;
+                }
+
+                @media (max-width: $screen-sm) {
+                    font-size: 4rem;
+                }
+            }
+        }
+
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            margin-inline: auto;
+
+            > p {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .massenermittlung-aufnahme-section {
+        padding-block: 5rem;
+
+        .title-container {
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem;
+            margin-inline: min(5rem, 5%);
+            margin-block-end: 5rem;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 2rem -1rem $color-black-shadow;
+            background-color: $color-white-light;
+
+            .section-title {
+                inline-size: fit-content;
+                margin-inline: auto;
+                text-align: center;
+                color: transparent;
+                font-size: 8rem;
+                font-weight: $weight-bold;
+                background-image: $color-gradient-blue;
+                background-clip: text;
+
+                @media (max-width: $screen-md) {
+                    font-size: 6rem;
+                }
+
+                @media (max-width: $screen-sm) {
+                    font-size: 4rem;
+                }
+            }
+        }
+
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            margin-inline: auto;
+
+            > p {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .schulungen-section {
+        padding-block: 5rem;
+        background-color: $color-white-light;
+
+        .title-container {
+            padding-inline: min(5rem, 5%);
+            padding-block: 5rem;
+            margin-inline: min(5rem, 5%);
+            margin-block-end: 5rem;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 2rem -1rem $color-black-shadow;
+            background-color: $color-white-dark;
+
+            .section-title {
+                inline-size: fit-content;
+                margin-inline: auto;
+                text-align: center;
+                color: transparent;
+                font-size: 8rem;
+                font-weight: $weight-bold;
+                background-image: $color-gradient-blue;
+                background-clip: text;
+
+                @media (max-width: $screen-md) {
+                    font-size: 6rem;
+                }
+
+                @media (max-width: $screen-sm) {
+                    font-size: 4rem;
+                }
+            }
+        }
+
+        .section-container {
+            inline-size: min($max-size, 100%);
+            padding-inline: min(5rem, 5%);
+            margin-inline: auto;
+
+            > p {
+                font-size: 2.5rem;
             }
         }
     }

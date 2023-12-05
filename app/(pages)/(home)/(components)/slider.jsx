@@ -11,7 +11,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const change = {
     initial: { opacity: 0 },
-    animate: { opacity: 1, transition: { ease: "linear", delay: 0.2, duration: 0.2 } },
+    animate: { opacity: 1, transition: { delay: 0.2, duration: 0.2 } },
 };
 
 export default function Slider({ products }) {

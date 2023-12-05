@@ -203,10 +203,11 @@
 
         .section-container {
             padding-inline: min(5rem, 5%);
-            padding-block: 10rem;
-            margin-inline: min(2rem, 5%);
-            margin-block-start: 2rem;
+            padding-block: 5rem;
+            margin-inline: min(5rem, 5%);
+            margin-block-start: 5rem;
             border-radius: 1rem;
+            box-shadow: 0 0.5rem 2rem -1rem $color-black-shadow;
             background-color: $color-white-dark;
 
             .title-box {
