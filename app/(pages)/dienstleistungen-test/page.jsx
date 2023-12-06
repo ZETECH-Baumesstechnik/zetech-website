@@ -32,16 +32,20 @@ export default function Page() {
                     <div className="grid-wrapper">
                         <div className="grid-container odd">
                             <div className="grid-box-text odd odd-first">
-                                <ViewContainerLtr classes={"view-container"}>
+                                {/* <ViewContainerLtr classes={"view-container"}> */}
+                                <div className="view-container">
                                     <h2 className="box-title">Daten Grundlage</h2>
                                     <p className="box-text">Sie senden uns Ihren zu bearbeitenden Plan zu, sei das als DXF oder DWG Datei.</p>
-                                </ViewContainerLtr>
-                            </div>
-                            <ViewContainerRtl classes={"grid-box-asset"}>
-                                <div className="asset-holder">
-                                    <img src="" alt="" className="asset" />
                                 </div>
-                            </ViewContainerRtl>
+                                {/* </ViewContainerLtr> */}
+                            </div>
+                            {/* <ViewContainerRtl classes={"grid-box-asset"}> */}
+                            <div className="grid-box-asset">
+                                <div className="asset-holder">
+                                    <img src="/images/dienstleistungen/datenaufbereitung-plan.png" alt="Plan" loading="lazy" className="asset" />
+                                </div>
+                            </div>
+                            {/* </ViewContainerRtl> */}
                         </div>
                         <div className="grid-container even">
                             <div className="grid-box-text even">
@@ -68,7 +72,11 @@ export default function Page() {
                             </div>
                             <ViewContainerLtr classes={"grid-box-asset"}>
                                 <div className="asset-holder">
-                                    <img src="" alt="" className="asset" />
+                                    <iframe src="/documents/dienstleistungen/model.html" referrerPolicy="no-referrer" loading="lazy" title="3D Model" className="frame"></iframe>
+                                    <Link href={"/documents/dienstleistungen/model.html"} target="_blank" className="model-link">
+                                        <span className="text">Model öffnen</span>
+                                        <RxOpenInNewWindow className="icon" />
+                                    </Link>
                                 </div>
                             </ViewContainerLtr>
                         </div>
@@ -91,7 +99,7 @@ export default function Page() {
                             </div>
                             <ViewContainerRtl classes={"grid-box-asset"}>
                                 <div className="asset-holder">
-                                    <img src="" alt="" className="asset" />
+                                    <img src="/images/dienstleistungen/datenaufbereitung-tablet.png" alt="Plan auf Tablet" loading="lazy" className="asset" />
                                 </div>
                             </ViewContainerRtl>
                         </div>
@@ -104,7 +112,7 @@ export default function Page() {
                             </div>
                             <ViewContainerLtr classes={"grid-box-asset"}>
                                 <div className="asset-holder">
-                                    <img src="" alt="" className="asset" />
+                                    <img src="/images/dienstleistungen/datenaufbereitung-schulung.jpg" alt="Instruktion" loading="lazy" className="asset" />
                                 </div>
                             </ViewContainerLtr>
                         </div>
