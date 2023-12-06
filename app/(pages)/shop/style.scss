@@ -73,15 +73,15 @@
 
             .flex-grid {
                 display: grid;
-                grid-template-columns: repeat(6, 1fr);
-                grid-template-areas: "a a b b b b";
+                grid-template-columns: 35rem 1fr;
+                grid-template-areas: "a b";
                 column-gap: 5rem;
                 row-gap: 5rem;
 
-                @media (max-width: 1024px) {
+                @media (max-width: $screen-lg) {
                     grid-template-areas:
-                        "a a a a a a"
-                        "b b b b b b";
+                        "a a"
+                        "b b";
                 }
 
                 .nav-box {
@@ -106,7 +106,7 @@
                         z-index: -1;
                     }
 
-                    @media (max-width: 1024px) {
+                    @media (max-width: $screen-lg) {
                         inset-block-start: calc($header-block-size + 2.5rem);
                         row-gap: 1rem;
                         padding-block: 2.5rem;

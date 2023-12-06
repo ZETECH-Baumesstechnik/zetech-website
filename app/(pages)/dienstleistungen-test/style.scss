@@ -123,11 +123,6 @@
                     grid-template-columns: repeat(2, minmax(0, 1fr));
                     column-gap: 10rem;
                     row-gap: 5rem;
-                    // padding-inline: min(5rem, 5%);
-                    // padding-block: 5rem;
-                    // border-radius: 1rem;
-                    // box-shadow: 0 0.5rem 2rem -1rem $color-black-shadow;
-                    // background-color: $color-white-light;
 
                     &.odd {
                         grid-template-areas: "a b";
@@ -179,8 +174,7 @@
                                 inline-size: 2.5rem;
                                 aspect-ratio: calc(1);
                                 border-radius: 50%;
-                                border: 3px solid $color-black-light;
-                                background-color: $color-white-light;
+                                background-image: $color-gradient-blue;
 
                                 @media (max-width: $screen-lg) {
                                     display: none;
@@ -214,8 +208,7 @@
                                 inline-size: 2.5rem;
                                 aspect-ratio: calc(1);
                                 border-radius: 50%;
-                                border: 3px solid $color-black-light;
-                                background-color: $color-white-light;
+                                background-image: $color-gradient-blue;
 
                                 @media (max-width: $screen-lg) {
                                     display: none;

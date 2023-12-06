@@ -27,38 +27,26 @@
             margin-inline: auto;
 
             .hero-slider {
-                position: relative;
                 display: flex;
                 flex-direction: column;
                 row-gap: 5rem;
 
                 .title-box {
-                    position: relative;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     text-align: center;
-                    min-block-size: 6rem;
-
-                    @media (max-width: 768px) {
-                        min-block-size: 4rem;
-                    }
-
-                    @media (max-width: 425px) {
-                        min-block-size: 3rem;
-                    }
 
                     .title {
-                        position: absolute;
                         color: $color-white-dark;
                         font-size: 6rem;
                         font-weight: $weight-bold;
 
-                        @media (max-width: 768px) {
+                        @media (max-width: $screen-md) {
                             font-size: 4rem;
                         }
 
-                        @media (max-width: 425px) {
+                        @media (max-width: $screen-sm) {
                             font-size: 3rem;
                         }
                     }
@@ -96,7 +84,7 @@
                         inline-size: min(25rem, 100%);
                         block-size: 5rem;
                         padding-inline: 2rem 1.25rem;
-                        margin-block-end: -2.5rem;
+                        margin-block-end: -3rem;
                         border-radius: 9999px;
                         background-color: $color-white-dark;
                         isolation: isolate;
@@ -150,7 +138,7 @@
                         padding-inline: 1rem;
                         padding-block: 1rem;
                         border: 1px solid $color-white-dark;
-                        border-radius: 50%;
+                        border-radius: 9999px;
                         cursor: pointer;
                         background-color: $color-white-dark;
                         transition-property: background-color;
@@ -182,7 +170,7 @@
                             inline-size: 1.5rem;
                             aspect-ratio: calc(1);
                             border: 1px solid $color-white-dark;
-                            border-radius: 50%;
+                            border-radius: 9999px;
                             cursor: pointer;
                             background-color: $color-white-dark;
                             transition-property: background-color;

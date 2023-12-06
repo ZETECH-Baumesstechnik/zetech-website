@@ -1,6 +1,5 @@
 import "@/app/(pages)/dienstleistungen-test/style.scss";
 
-import ViewContainerReveal from "@/containers/view-container-reveal.jsx";
 import ViewContainerLtr from "@/containers/view-container-ltr.jsx";
 import ViewContainerRtl from "@/containers/view-container-rtl.jsx";
 
