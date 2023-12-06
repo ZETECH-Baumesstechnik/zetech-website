@@ -89,22 +89,53 @@
                     justify-content: center;
 
                     .link {
-                        color: $color-black-light;
-                        font-size: 2rem;
-                        text-align: center;
-                        padding-inline: 3rem;
-                        padding-block: 1rem;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        inline-size: min(25rem, 100%);
+                        block-size: 5rem;
+                        padding-inline: 2rem 1.25rem;
                         margin-block-end: -2.5rem;
-                        border-radius: 3rem;
-                        border: 1px solid $color-white-dark;
+                        border-radius: 9999px;
                         background-color: $color-white-dark;
-                        transition-property: background-color;
-                        transition-timing-function: ease-in-out;
-                        transition-duration: 200ms;
+                        isolation: isolate;
+
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            inset-inline-end: 0.5rem;
+                            inset-block: 0.5rem;
+                            inline-size: 4rem;
+                            border-radius: 9999px;
+                            background-color: $color-black-light;
+                            z-index: -1;
+                            transition-property: inline-size;
+                            transition-timing-function: ease-in-out;
+                            transition-duration: 200ms;
+                        }
 
                         &:hover {
+                            &::before {
+                                inline-size: calc(100% - 1rem);
+                            }
+
+                            .text {
+                                color: $color-white-dark;
+                            }
+                        }
+
+                        .text {
+                            color: $color-black-light;
+                            font-size: 2.5rem;
+                            transition-property: color;
+                            transition-timing-function: ease-in-out;
+                            transition-duration: 200ms;
+                        }
+
+                        .icon {
                             color: $color-white-dark;
-                            background-color: $color-black-light;
+                            font-size: 2.5rem;
                         }
                     }
                 }
@@ -358,26 +389,57 @@
                             }
 
                             .link {
-                                inline-size: fit-content;
-                                color: $color-white-dark;
-                                font-size: 2.5rem;
-                                text-align: center;
-                                padding-inline: 10rem;
-                                padding-block: 0.5rem;
-                                border-radius: 3rem;
-                                outline: 3px solid $color-black-light;
-                                outline-offset: 3px;
-                                background-image: $color-gradient-blue;
-                                transition-property: outline-offset;
-                                transition-timing-function: ease-in-out;
-                                transition-duration: 200ms;
+                                position: relative;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                inline-size: min(30rem, 100%);
+                                block-size: 5rem;
+                                padding-inline: 2rem 1.25rem;
+                                border-radius: 9999px;
+                                border: 1px solid $color-black-light;
+                                background-color: $color-white-light;
+                                isolation: isolate;
 
                                 @media (max-width: $screen-lg) {
                                     margin-inline: auto;
                                 }
 
+                                &::before {
+                                    position: absolute;
+                                    content: "";
+                                    inset-inline-end: 0.5rem;
+                                    inset-block: 0.5rem;
+                                    inline-size: 4rem;
+                                    border-radius: 9999px;
+                                    background-image: $color-gradient-blue;
+                                    z-index: -1;
+                                    transition-property: inline-size;
+                                    transition-timing-function: ease-in-out;
+                                    transition-duration: 200ms;
+                                }
+
                                 &:hover {
-                                    outline-offset: 0;
+                                    &::before {
+                                        inline-size: calc(100% - 1rem);
+                                    }
+
+                                    .text {
+                                        color: $color-white-dark;
+                                    }
+                                }
+
+                                .text {
+                                    color: $color-black-light;
+                                    font-size: 2.5rem;
+                                    transition-property: color;
+                                    transition-timing-function: ease-in-out;
+                                    transition-duration: 200ms;
+                                }
+
+                                .icon {
+                                    color: $color-white-dark;
+                                    font-size: 2.5rem;
                                 }
                             }
                         }
@@ -468,23 +530,54 @@
                             }
 
                             .link {
-                                inline-size: fit-content;
-                                color: $color-white-dark;
-                                font-size: 2.5rem;
-                                text-align: center;
-                                padding-inline: 10rem;
-                                padding-block: 0.5rem;
+                                position: relative;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                inline-size: min(30rem, 100%);
+                                block-size: 5rem;
+                                padding-inline: 2rem 1.25rem;
                                 margin-inline: auto;
-                                border-radius: 3rem;
-                                outline: 3px solid $color-black-light;
-                                outline-offset: 3px;
-                                background-image: $color-gradient-blue;
-                                transition-property: outline-offset;
-                                transition-timing-function: ease-in-out;
-                                transition-duration: 200ms;
+                                border-radius: 9999px;
+                                border: 1px solid $color-black-light;
+                                background-color: $color-white-light;
+                                isolation: isolate;
+
+                                &::before {
+                                    position: absolute;
+                                    content: "";
+                                    inset-inline-end: 0.5rem;
+                                    inset-block: 0.5rem;
+                                    inline-size: 4rem;
+                                    border-radius: 9999px;
+                                    background-image: $color-gradient-blue;
+                                    z-index: -1;
+                                    transition-property: inline-size;
+                                    transition-timing-function: ease-in-out;
+                                    transition-duration: 200ms;
+                                }
 
                                 &:hover {
-                                    outline-offset: 0;
+                                    &::before {
+                                        inline-size: calc(100% - 1rem);
+                                    }
+
+                                    .text {
+                                        color: $color-white-dark;
+                                    }
+                                }
+
+                                .text {
+                                    color: $color-black-light;
+                                    font-size: 2.5rem;
+                                    transition-property: color;
+                                    transition-timing-function: ease-in-out;
+                                    transition-duration: 200ms;
+                                }
+
+                                .icon {
+                                    color: $color-white-dark;
+                                    font-size: 2.5rem;
                                 }
                             }
                         }
@@ -714,23 +807,54 @@
                 }
 
                 .link {
-                    inline-size: fit-content;
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    inline-size: min(35rem, 100%);
+                    block-size: 5rem;
+                    padding-inline: 2rem 1.25rem;
                     margin-inline: auto;
-                    color: $color-white-dark;
-                    font-size: 2.5rem;
-                    text-align: center;
-                    padding-inline: 10rem;
-                    padding-block: 0.5rem;
-                    border-radius: 3rem;
-                    outline: 3px solid $color-black-light;
-                    outline-offset: 3px;
-                    background-image: $color-gradient-blue;
-                    transition-property: outline-offset;
-                    transition-timing-function: ease-in-out;
-                    transition-duration: 200ms;
+                    border-radius: 9999px;
+                    border: 1px solid $color-black-light;
+                    background-color: $color-white-dark;
+                    isolation: isolate;
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        inset-inline-end: 0.5rem;
+                        inset-block: 0.5rem;
+                        inline-size: 4rem;
+                        border-radius: 9999px;
+                        background-image: $color-gradient-blue;
+                        z-index: -1;
+                        transition-property: inline-size;
+                        transition-timing-function: ease-in-out;
+                        transition-duration: 200ms;
+                    }
 
                     &:hover {
-                        outline-offset: 0;
+                        &::before {
+                            inline-size: calc(100% - 1rem);
+                        }
+
+                        .text {
+                            color: $color-white-dark;
+                        }
+                    }
+
+                    .text {
+                        color: $color-black-light;
+                        font-size: 2.5rem;
+                        transition-property: color;
+                        transition-timing-function: ease-in-out;
+                        transition-duration: 200ms;
+                    }
+
+                    .icon {
+                        color: $color-white-dark;
+                        font-size: 2.5rem;
                     }
                 }
             }

@@ -8,6 +8,8 @@ import productsData from "@/app/(pages)/(home)/products.json";
 
 import Link from "next/link";
 
+import { BsArrowRight } from "react-icons/bs";
+
 export const metadata = {
     title: "Home",
 };
@@ -45,7 +47,8 @@ export default function Page() {
                             <div className="text-box">
                                 <p className="text">Mit unseren Bauvermessungsinstrumenten eruieren wir mit Ihnen die bestmögliche und optimale Lösung, damit Ihre Bau- und Fertigungsprozesse schneller, optimiert und mit kleinerem Aufwand ausgeführt werden können. Gerne beraten und stellen wir Ihnen das für Sie optimale Vermessungsgerät vor.</p>
                                 <Link href={"/shop"} className="link">
-                                    Zum Shop
+                                    <span className="text">Zum Shop</span>
+                                    <BsArrowRight className="icon" />
                                 </Link>
                             </div>
                             <div className="image-box">
@@ -66,7 +69,8 @@ export default function Page() {
                             <div className="text-box">
                                 <p className="text">Vor und während der Bauausführung stehen wir Ihnen zur Seite. Von der Bearbeitung Ihrer Pläne und Daten für die Verwendung mit Robotik-Totalstationen, GPS Systemen oder Maschinensteuerungen bis zur Erstellung von 3D oder 2D Modellen und Geländedatenermittlungen.</p>
                                 <Link href={"/dienstleistungen"} className="link">
-                                    Zur Übersicht
+                                    <span className="text">Zur Übersicht</span>
+                                    <BsArrowRight className="icon" />
                                 </Link>
                             </div>
                         </ScrollContainer>
@@ -82,7 +86,8 @@ export default function Page() {
                             <div className="text-box">
                                 <p className="text">Unsere zertifizierte Service-Werkstatt erledigt für Sie Reparaturen, Kontrollen und Service Arbeiten an Ihren Messinstrumenten. Nebst Tachymeter, Baulaser, Nivellier, etc., sind wir bis zu den High-End Robotik-Totalstationen autorisiert und durch die Leica Geosystems AG zertifiziert, Service Arbeiten, QS-Zertifikate, Kontrollen und Reparaturen durchzuführen.</p>
                                 <Link href={"/service"} className="link">
-                                    Zum Service
+                                    <span className="text">Zum Service</span>
+                                    <BsArrowRight className="icon" />
                                 </Link>
                             </div>
                         </ScrollContainer>
@@ -137,7 +142,8 @@ export default function Page() {
                             <p className="text">und kontaktieren Sie uns bei allen Fragen oder Anliegen.</p>
                         </div>
                         <Link href={"/kontakt"} className="link">
-                            Kontakt aufnehmen
+                            <span className="text">Kontakt aufnehmen</span>
+                            <BsArrowRight className="icon" />
                         </Link>
                     </div>
                 </div>

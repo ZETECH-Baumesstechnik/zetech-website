@@ -56,7 +56,8 @@ export default function Slider({ products }) {
                     </div>
                     <div className="link-box">
                         <Link href={products[slide].link} className="link">
-                            Zum Produkt
+                            <span className="text">Zum Produkt</span>
+                            <BsArrowRight className="icon" />
                         </Link>
                     </div>
                     <div className="navigation-box">
